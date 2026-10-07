@@ -69,3 +69,7 @@ insert into storage.buckets (id, name, public, file_size_limit, allowed_mime_typ
 values
   ('tl-site-images', 'tl-site-images', true, 10485760, array['image/png', 'image/jpeg', 'image/webp', 'image/avif']),
   ('tl-pdfs', 'tl-pdfs', false, 104857600, array['application/pdf']);
+
+-- 2026-10-07 (applied via SQL): first real book.
+-- insert into public.tl_products (slug, title, pdf_path)
+-- values ('abc-123-shapes-fun-book', 'ABC, 123 & Shapes Fun Book', 'abc-123-shapes-fun-book.pdf');

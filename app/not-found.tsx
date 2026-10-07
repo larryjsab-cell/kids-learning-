@@ -1,6 +1,7 @@
 import { Section } from "@/components/ui/Section";
 import { ButtonLink } from "@/components/ui/Button";
 import { TextLink } from "@/components/ui/TextLink";
+import { featuredProduct, productPath } from "@/lib/content";
 
 export default function NotFound() {
   return (
@@ -13,7 +14,9 @@ export default function NotFound() {
       <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center sm:gap-8">
         <ButtonLink href="/">Go to the home page</ButtonLink>
         <TextLink href="/shop" className="inline-flex min-h-11 items-center">Browse the shop</TextLink>
-        <TextLink href="/products/alphabet-adventures" className="inline-flex min-h-11 items-center">See Alphabet Adventures</TextLink>
+        <TextLink href={productPath(featuredProduct.slug)} className="inline-flex min-h-11 items-center">
+          See {featuredProduct.shortTitle}
+        </TextLink>
       </div>
     </Section>
   );

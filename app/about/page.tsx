@@ -5,7 +5,7 @@ import { ChecklistCard } from "@/components/ui/ChecklistCard";
 import { Photo } from "@/components/ui/Photo";
 import { RelatedPages } from "@/components/ui/RelatedPages";
 import { buttonClasses } from "@/components/ui/Button";
-import { siteConfig } from "@/lib/content";
+import { featuredProduct, productPath, siteConfig } from "@/lib/content";
 import about from "@/content/about.json";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { breadcrumbSchema } from "@/lib/schema";
@@ -66,7 +66,7 @@ export default function AboutPage() {
 
       <RelatedPages
         links={[
-          { href: "/products/alphabet-adventures", title: "Meet Alphabet Adventures", body: "Our A-to-Z tracing and phonics book for ages 3–6." },
+          { href: productPath(featuredProduct.slug), title: `Meet ${featuredProduct.shortTitle}`, body: "Our 90-page letters, numbers and shapes workbook for ages 3–6." },
           { href: "/shop", title: "Browse the shop", body: "Every book as a PDF or a printed copy." },
           { href: "/#free-sample", title: "Get free sample pages", body: "5 pages to print and try tonight." },
         ]}

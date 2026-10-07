@@ -1,25 +1,19 @@
 {
   "products": [
     {
-      "slug": "alphabet-adventures",
-      "isTestProduct": true,
-      "title": "Alphabet Adventures",
-      "subtitle": "Trace, say and find every letter from A to Z",
-      "summary": "A playful A-to-Z book where every letter gets its own adventure: trace it, hear its sound, find it in a picture and color it in.",
+      "slug": "abc-123-shapes-fun-book",
+      "pricesAreTest": true,
+      "title": "ABC, 123 & Shapes Fun Book",
+      "shortTitle": "ABC, 123 & Shapes",
+      "subtitle": "Trace, draw, color and play your way to letters, numbers and shapes",
+      "summary": "A 90-page preschool and kindergarten workbook. Trace A to Z and 1 to 9, learn 8 shapes, draw 5 pictures step by step, then play mazes and matching games.",
       "ages": "Ages 3–6",
-      "grades": [
-        "Preschool",
-        "Pre-K",
-        "Kindergarten"
-      ],
-      "pages": 56,
-      "skills": [
-        "Letter recognition",
-        "Letter sounds",
-        "Pencil control",
-        "Uppercase and lowercase"
-      ],
+      "grades": ["Preschool", "Kindergarten"],
+      "pages": 90,
+      "paper": "US Letter (8.5 × 11 in)",
+      "skills": ["Uppercase and lowercase letters", "Letter sounds", "Numbers 1 to 9", "Shapes", "Pencil control", "Drawing"],
       "color": "coral",
+      "cardImage": "bookSpread",
       "formats": [
         {
           "id": "pdf",
@@ -36,121 +30,107 @@
           "detail": "A printed copy shipped to your door, and the PDF in your inbox today."
         }
       ],
-      "tagline": "26 letters. 26 little adventures.",
+      "tagline": "Over 80 activity pages to get ready for school the fun way.",
       "highlights": [
-        "Every letter gets its own two-page adventure",
-        "Uppercase and lowercase tracing with arrows that show where to start",
-        "A busy picture to hunt for the letter, then color in",
-        "About 15 minutes a day, one letter at a time"
+        "Uppercase and lowercase letters A to Z",
+        "Numbers 1 to 9 with counting",
+        "8 shapes to trace and draw",
+        "5 step-by-step drawing lessons",
+        "Mazes, matching and puzzles",
+        "Coloring pages and a Super Star certificate"
       ],
       "gallery": [
-        {
-          "image": "galleryCover"
-        },
-        {
-          "image": "galleryTracing"
-        },
-        {
-          "image": "gallerySeek"
-        },
-        {
-          "image": "galleryPrintPdf"
-        }
+        { "image": "bookCover" },
+        { "image": "bookLetterA" },
+        { "image": "bookNumber1" },
+        { "image": "bookCircle" },
+        { "image": "bookDrawCat" },
+        { "image": "bookBackCover" }
       ],
       "routine": {
-        "heading": "One letter, four little steps",
-        "intro": "Every letter follows the same routine, so your child always knows what comes next.",
+        "heading": "How the book builds skills",
+        "intro": "The pages follow the order little hands learn best, from warm-up lines to a certificate at the end.",
         "steps": [
           {
-            "title": "Trace it",
-            "body": "Follow the arrows to trace the uppercase and lowercase letter, then try it on your own."
+            "title": "Warm up",
+            "body": "Two pages of lines from a green dot to a star build the hand muscles for writing."
           },
           {
-            "title": "Say it",
-            "body": "Look at the picture word and say the letter’s sound out loud together."
+            "title": "Learn",
+            "body": "Color the big letter, number or shape, then trace the gray ones on real writing lines."
           },
           {
-            "title": "Find it",
-            "body": "Hunt for the letter hiding in a busy picture and circle every one."
+            "title": "Draw",
+            "body": "Draw a cat, house, fish, flower and robot in 4 easy steps, then try each one on your own."
           },
           {
-            "title": "Color it",
-            "body": "Finish the page by coloring the picture. A small win to end on."
+            "title": "Play",
+            "body": "Match letters, find missing ones, count, spot patterns and solve mazes, then earn the Super Star certificate."
           }
+        ]
+      },
+      "contents": {
+        "heading": "What’s inside all 90 pages",
+        "items": [
+          { "name": "Warm-up lines", "pages": 2 },
+          { "name": "Letters A to Z, uppercase and lowercase", "pages": 26 },
+          { "name": "Numbers 1 to 9 with counting", "pages": 9 },
+          { "name": "Shapes: circle, square, triangle, rectangle, oval, star, heart, diamond", "pages": 8 },
+          { "name": "Step-by-step drawing: cat, house, fish, flower, robot", "pages": 15 },
+          { "name": "Coloring pages", "pages": 2 },
+          { "name": "Letter games: match, find, missing letters, first sounds", "pages": 12 },
+          { "name": "Number games: count and circle, number match", "pages": 4 },
+          { "name": "Shape and logic puzzles: find the shape, odd one out, what’s next", "pages": 4 },
+          { "name": "Mazes", "pages": 3 },
+          { "name": "Super Star certificate", "pages": 1 }
+        ]
+      },
+      "tips": {
+        "heading": "Tips for grown-ups, straight from page 3",
+        "items": [
+          "Do 1 or 2 pages a day. Short and happy is best!",
+          "Start with the warm-up lines to build little hand muscles.",
+          "Trace with a crayon or a fat pencil.",
+          "Start each letter at the top and go down.",
+          "Say the letter name and sound: “C says /k/ like cat.”",
+          "Praise trying, not perfect lines. Every wobble counts!",
+          "Print extra copies of favorite pages to practice again."
         ]
       },
       "outcomes": {
         "heading": "What your learner practices",
         "items": [
           {
-            "name": "Letter recognition",
-            "body": "Spotting each letter in uppercase and lowercase, even inside a busy picture."
+            "name": "Letters and sounds",
+            "body": "Every letter in uppercase and lowercase, each paired with a picture word like apple, ball and cat."
           },
           {
-            "name": "Letter sounds",
-            "body": "Linking every letter to a familiar picture word and its first sound."
+            "name": "Numbers and counting",
+            "body": "Writing 1 to 9, counting objects, and matching numbers to dots."
           },
           {
-            "name": "Pencil control",
-            "body": "Tracing straight lines, curves and loops with the correct starting point."
+            "name": "Shapes",
+            "body": "Tracing 8 shapes, writing their names and finding them among look-alikes."
           },
           {
-            "name": "Focus and finishing",
-            "body": "Short, complete pages that build the habit of finishing a task."
+            "name": "Pencil control and drawing",
+            "body": "Warm-up lines, dotted tracing and 5 step-by-step drawings that build a steady hand."
+          },
+          {
+            "name": "Thinking skills",
+            "body": "Patterns, odd one out, missing letters and mazes that stretch attention and problem solving."
           }
         ]
       },
       "compare": {
         "heading": "Pick the way that suits your family",
         "rows": [
-          {
-            "label": "Alphabet Adventures PDF",
-            "values": [
-              true,
-              true,
-              true
-            ]
-          },
-          {
-            "label": "PDF arrives by email right away",
-            "values": [
-              true,
-              true,
-              true
-            ]
-          },
-          {
-            "label": "Printed book shipped to you",
-            "values": [
-              false,
-              true,
-              false
-            ]
-          },
-          {
-            "label": "Print extra pages at home",
-            "values": [
-              true,
-              true,
-              true
-            ]
-          },
-          {
-            "label": "Every other PDF in the library",
-            "values": [
-              false,
-              false,
-              true
-            ]
-          },
-          {
-            "label": "New PDF releases free",
-            "values": [
-              false,
-              false,
-              true
-            ]
-          }
+          { "label": "ABC, 123 & Shapes PDF (90 pages)", "values": [true, true, true] },
+          { "label": "PDF arrives by email right away", "values": [true, true, true] },
+          { "label": "Printed book shipped to you", "values": [false, true, false] },
+          { "label": "Print extra pages at home", "values": [true, true, true] },
+          { "label": "Every other PDF in the library", "values": [false, false, true] },
+          { "label": "New PDF releases free", "values": [false, false, true] }
         ]
       },
       "faq": [
@@ -160,11 +140,15 @@
         },
         {
           "q": "What paper and printer do I need?",
-          "a": "Any home printer and regular letter or A4 paper. Thicker paper holds up better to crayons and markers."
+          "a": "Any home printer. Pages are US Letter size (8.5 × 11 in) and also print on A4 with “fit to page”. Thicker paper holds up better to crayons and markers."
         },
         {
           "q": "Is it right for my child?",
-          "a": "Alphabet Adventures is made for ages 3 to 6. Younger learners can focus on tracing and coloring; older ones can say each sound and find every letter."
+          "a": "It’s made for preschool and kindergarten, ages 3 to 6. Younger learners can color and trace; older ones can say each sound, write the missing letters and solve the puzzles."
+        },
+        {
+          "q": "Can we try it first?",
+          "a": "Yes. The free sample pack has 5 pages from this book: warm-up lines, the letter A, the number 1, the circle and Draw a Cat."
         },
         {
           "q": "How does shipping work for the printed book?",
@@ -178,9 +162,7 @@
       "shipping": {
         "amount": 5,
         "label": "Standard shipping",
-        "countries": [
-          "US"
-        ]
+        "countries": ["US"]
       }
     }
   ],

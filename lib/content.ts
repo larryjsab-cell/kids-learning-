@@ -12,6 +12,11 @@ export const homeContent = home;
 export const products: Product[] = catalog.products;
 export const membership: Membership = catalog.membership;
 
+/** The book the home page, nav and cross-links point to. */
+export const featuredProduct: Product = catalog.products[0];
+
+export const productPath = (slug: string) => `/products/${slug}`;
+
 export function getProduct(slug: string): Product | undefined {
   return products.find((p) => p.slug === slug);
 }

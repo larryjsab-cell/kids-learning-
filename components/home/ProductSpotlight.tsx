@@ -1,11 +1,10 @@
 import { Section } from "@/components/ui/Section";
 import { ButtonLink } from "@/components/ui/Button";
-import { Photo } from "@/components/ui/Photo";
-import { formatPrice, homeContent, membership, products } from "@/lib/content";
+import { Photo, type PhotoId } from "@/components/ui/Photo";
+import { featuredProduct as product, formatPrice, homeContent, membership } from "@/lib/content";
 
 export function ProductSpotlight() {
   const { spotlight } = homeContent;
-  const product = products[0];
   return (
     <Section tone="deep" labelledBy="spotlight-title" className="relative overflow-hidden">
       <div className="grid items-center gap-12 lg:grid-cols-12">
@@ -43,7 +42,7 @@ export function ProductSpotlight() {
 
         <div className="lg:col-span-6">
           <Photo
-            id="spotlight"
+            id={product.cardImage as PhotoId}
             ratio="4/3"
             sizes="(min-width: 1024px) 50vw, 100vw"
             className="-rotate-2 rounded-xl border-2 border-ink shadow-lift"

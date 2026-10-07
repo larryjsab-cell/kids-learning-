@@ -9,6 +9,8 @@ type Copy = {
   submitting: string;
   success: string;
   privacy: string;
+  sampleHref: string;
+  download: string;
 };
 
 type Status = "idle" | "submitting" | "success" | "error";
@@ -66,8 +68,11 @@ export function FreeSampleForm({ copy, fallbackEmail }: { copy: Copy; fallbackEm
 
   if (status === "success") {
     return (
-      <div role="status" className="rounded-lg border-2 border-ink bg-mint-soft p-6 font-display text-h3">
-        {copy.success}
+      <div role="status" className="rounded-lg border-2 border-ink bg-mint-soft p-6">
+        <p className="font-display text-h3">{copy.success}</p>
+        <a href={copy.sampleHref} download className={buttonClasses("primary", "mt-5")}>
+          {copy.download}
+        </a>
       </div>
     );
   }

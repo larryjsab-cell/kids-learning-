@@ -10,16 +10,40 @@
   "audience": "Parents and caregivers of children in preschool through 1st grade (ages 3–7)",
   "social": [],
   "nav": [
-    { "label": "Shop", "href": "/shop" },
-    { "label": "Alphabet Adventures", "href": "/products/alphabet-adventures" },
-    { "label": "About", "href": "/about" }
+    {
+      "label": "Shop",
+      "href": "/shop"
+    },
+    {
+      "label": "ABC, 123 & Shapes",
+      "href": "/products/abc-123-shapes-fun-book"
+    },
+    {
+      "label": "About",
+      "href": "/about"
+    }
   ],
-  "navCta": { "label": "Free sample pack", "href": "/#free-sample" },
+  "navCta": {
+    "label": "Free sample pack",
+    "href": "/#free-sample"
+  },
   "pages": [
-    { "path": "/", "title": "Home" },
-    { "path": "/shop", "title": "Shop" },
-    { "path": "/about", "title": "About" },
-    { "path": "/products/[slug]", "title": "Product landing pages" }
+    {
+      "path": "/",
+      "title": "Home"
+    },
+    {
+      "path": "/shop",
+      "title": "Shop"
+    },
+    {
+      "path": "/about",
+      "title": "About"
+    },
+    {
+      "path": "/products/[slug]",
+      "title": "Product landing pages"
+    }
   ],
   "colors": {
     "grape": "#4B2BB3",

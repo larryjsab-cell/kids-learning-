@@ -8,8 +8,8 @@
     "traceLetter": "a",
     "body": "Learning books and printable PDFs that turn letters, sounds and numbers into 15-minute adventures for preschool to 1st grade.",
     "primaryCta": {
-      "label": "Meet Alphabet Adventures",
-      "href": "/products/alphabet-adventures"
+      "label": "See the ABC, 123 & Shapes book",
+      "href": "/products/abc-123-shapes-fun-book"
     },
     "secondaryCta": {
       "label": "Get a free sample pack",
@@ -68,11 +68,11 @@
     ]
   },
   "spotlight": {
-    "heading": "Start with the alphabet",
-    "body": "Alphabet Adventures gives every letter its own two-page adventure. Your child traces it, says its sound, hunts for it in a busy picture and colors it in. One letter a day, about 15 minutes.",
+    "heading": "Our first book: ABC, 123 & Shapes",
+    "body": "90 pages for preschool and kindergarten. Your child traces every letter from A to Z and numbers 1 to 9, learns 8 shapes, draws 5 pictures step by step, then plays mazes and matching games. 1 or 2 pages a day is plenty.",
     "cta": {
-      "label": "See inside Alphabet Adventures",
-      "href": "/products/alphabet-adventures"
+      "label": "See inside the book",
+      "href": "/products/abc-123-shapes-fun-book"
     }
   },
   "howItWorks": {
@@ -127,20 +127,22 @@
     "body": "Join the TiniLearners Club and every PDF in the library is yours, including each new release on the day it comes out.",
     "cta": {
       "label": "Join the Club",
-      "href": "/products/alphabet-adventures?plan=club#buy"
+      "href": "/products/abc-123-shapes-fun-book?plan=club#buy"
     }
   },
   "freeSample": {
     "heading": "Try a free sample pack",
-    "body": "5 favorite pages from our books, sent to your inbox. Print them tonight and see how your learner likes them.",
+    "body": "5 pages from our ABC, 123 & Shapes Fun Book: warm-up lines, the letter A, the number 1, the circle and Draw a Cat. Print them tonight and see how your learner likes them.",
     "fields": {
       "name": "Your first name",
       "email": "Email address"
     },
     "submit": "Send my free pages",
     "submitting": "Sending…",
-    "success": "Check your inbox. Your free pages are on their way.",
-    "privacy": "We’ll email you the pack and the occasional new release. Unsubscribe any time."
+    "success": "Your free pages are ready. We’ve also emailed you the link.",
+    "privacy": "We’ll email you the pack and the occasional new release. Unsubscribe any time.",
+    "sampleHref": "/samples/tinilearners-free-sample-pack.pdf",
+    "download": "Download the free sample pack (PDF)"
   },
   "faq": {
     "heading": "Questions parents ask",

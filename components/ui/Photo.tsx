@@ -7,6 +7,8 @@ const aspect = {
   "1/1": "aspect-square",
   "4/3": "aspect-4/3",
   "4/5": "aspect-4/5",
+  /** US Letter page (8.5 × 11), for book page previews. */
+  letter: "aspect-17/22",
 } as const;
 
 /** A site photo from content/images.json, cropped to a fixed ratio so layout never shifts. */

@@ -23,7 +23,7 @@ export function ProductHero({ product }: { product: Product }) {
             <li className="rounded-full border-2 border-ink bg-accent px-3 py-1 text-small font-semibold">{product.ages}</li>
           </ul>
 
-          <h1 id="product-title" className="ruled mt-5 text-display font-extrabold text-primary sm:text-display-lg">
+          <h1 id="product-title" className="ruled mt-5 text-display font-extrabold text-primary">
             {product.title}
           </h1>
           <p className="mt-4 font-display text-h3 text-ink">{product.tagline}</p>
@@ -39,7 +39,7 @@ export function ProductHero({ product }: { product: Product }) {
           </ul>
 
           <p className="mt-6 text-small text-muted">
-            {product.pages} pages. Skills: {product.skills.join(", ")}.
+            {product.pages} pages, {product.paper}. Skills: {product.skills.join(", ")}.
           </p>
 
           <div className="mt-8 rounded-xl border-2 border-ink bg-surface p-5 shadow-sticker sm:p-6">

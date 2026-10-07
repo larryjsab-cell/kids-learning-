@@ -3,7 +3,7 @@ import { Suspense } from "react";
 import { Section } from "@/components/ui/Section";
 import { ButtonLink } from "@/components/ui/Button";
 import { getStripe } from "@/lib/stripe";
-import { siteConfig } from "@/lib/content";
+import { featuredProduct, productPath, siteConfig } from "@/lib/content";
 
 export const metadata: Metadata = {
   title: "Order status",
@@ -45,7 +45,7 @@ async function Status({ searchParams }: { searchParams: Promise<{ session_id?: s
       <p className="mt-6 max-w-prose text-lead">
         No money was taken. Go back to the book and try checkout again, or email {siteConfig.email} and we’ll help.
       </p>
-      <ButtonLink href="/products/alphabet-adventures#buy" className="mt-8">Back to checkout</ButtonLink>
+      <ButtonLink href={`${productPath(featuredProduct.slug)}#buy`} className="mt-8">Back to checkout</ButtonLink>
     </>
   );
 }

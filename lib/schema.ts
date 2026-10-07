@@ -63,7 +63,10 @@ export function productSchema(product: Product) {
     name: product.title,
     description: product.summary,
     url: productUrl,
-    image: product.gallery.map((g) => images[g.image as keyof typeof images].src),
+    image: product.gallery.map((g) => {
+      const src = images[g.image as keyof typeof images].src;
+      return src.startsWith("/") ? url(src) : src;
+    }),
     brand: { "@type": "Brand", name: siteConfig.name },
     audience: { "@type": "PeopleAudience", suggestedMinAge: 3, suggestedMaxAge: 6 },
     offers: [

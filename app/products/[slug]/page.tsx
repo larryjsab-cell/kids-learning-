@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ProductHero } from "@/components/product/ProductHero";
 import { CompareTable } from "@/components/product/CompareTable";
+import { BookContents } from "@/components/product/BookContents";
 import { MobileBuyBar } from "@/components/product/MobileBuyBar";
 import { Section } from "@/components/ui/Section";
 import { SectionHeading } from "@/components/ui/SectionHeading";
@@ -24,7 +25,7 @@ export async function generateMetadata({ params }: PageProps<"/products/[slug]">
   const { slug } = await params;
   const product = getProduct(slug);
   if (!product) return {};
-  const title = `${product.title} | Letter tracing book for ${product.ages.toLowerCase()}`;
+  const title = `${product.title} | Workbook for ${product.ages.toLowerCase()}`;
   return {
     title: { absolute: title },
     description: product.summary,
@@ -58,6 +59,8 @@ export default async function ProductPage({ params }: PageProps<"/products/[slug
         <StepList steps={product.routine.steps} columns={4} />
       </Section>
 
+      <BookContents product={product} />
+
       <Section labelledBy="outcomes-title">
         <div className="grid items-center gap-12 lg:grid-cols-12">
           <div className="lg:col-span-5">
@@ -77,7 +80,7 @@ export default async function ProductPage({ params }: PageProps<"/products/[slug
 
       <MembershipBand
         heading="Get this book free with the Club"
-        body="Club members get Alphabet Adventures and every other PDF in the library, plus each new release on the day it comes out."
+        body={`Club members get the ${product.title} PDF and every other PDF in the library, plus each new release on the day it comes out.`}
         cta={{ label: "Join the Club", href: `/products/${product.slug}?plan=club#buy` }}
       />
 
@@ -95,7 +98,7 @@ export default async function ProductPage({ params }: PageProps<"/products/[slug
       <RelatedPages
         links={[
           { href: "/shop", title: "Browse all books", body: "See every TiniLearners title for preschool to 1st grade." },
-          { href: "/#free-sample", title: "Try free sample pages", body: "Print 5 favorite pages tonight before you buy." },
+          { href: "/#free-sample", title: "Try free sample pages", body: "Print 5 pages from this book tonight before you buy." },
           { href: "/about", title: "How we design pages", body: "Why every activity is short and ends on a win." },
         ]}
       />

@@ -6,7 +6,7 @@ import { ButtonLink } from "@/components/ui/Button";
 import { MembershipBand } from "@/components/ui/MembershipBand";
 import { AgeBands } from "@/components/home/AgeBands";
 import { RelatedPages } from "@/components/ui/RelatedPages";
-import { formatPrice, products } from "@/lib/content";
+import { featuredProduct, formatPrice, productPath, products } from "@/lib/content";
 import shop from "@/content/shop.json";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { breadcrumbSchema } from "@/lib/schema";
@@ -35,7 +35,7 @@ export default function ShopPage() {
               <li key={p.slug}>
                 <article className="group relative flex h-full flex-col overflow-hidden rounded-xl border-2 border-ink bg-surface shadow-sticker transition-transform duration-150 hover:-translate-y-1">
                   <Photo
-                    id={p.gallery[0].image as PhotoId}
+                    id={p.cardImage as PhotoId}
                     ratio="4/3"
                     sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
                     className="border-b-2 border-ink"
@@ -45,7 +45,7 @@ export default function ShopPage() {
                       {p.ages}, {p.pages} pages
                     </p>
                     <h2 className="mt-1 text-h3">
-                      <Link href={`/products/${p.slug}`} className="after:absolute after:inset-0 focus-visible:outline-none">
+                      <Link href={productPath(p.slug)} className="after:absolute after:inset-0 focus-visible:outline-none">
                         {p.title}
                       </Link>
                     </h2>
@@ -75,7 +75,7 @@ export default function ShopPage() {
 
       <RelatedPages
         links={[
-          { href: "/products/alphabet-adventures", title: "Look inside Alphabet Adventures", body: "See the 4-step routine every letter follows." },
+          { href: productPath(featuredProduct.slug), title: `Look inside ${featuredProduct.shortTitle}`, body: "See what’s on all 90 pages and preview real ones." },
           { href: "/about", title: "How we design pages", body: "Short activities that end on a win." },
           { href: "/#free-sample", title: "Free sample pages", body: "Try 5 pages at home before you buy." },
         ]}
