@@ -12,7 +12,7 @@
 - [ ] **Club new releases.** Members get every PDF that exists when they join. Emailing each new release to active members (`tl_members` where status = 'active') isn't automated yet.
 - [ ] **About page.** There's no founder story, because I won't invent one. Send your story or a photo if you want them added.
 - [ ] **Logo.** The current one is a generated wordmark (star + "TiniLearners"). Replace it if a real logo is made.
-- [ ] **Domain.** `site.config.json` → `url` is set to `https://tinilearners.com` (assumed).
+- [ ] **Domain.** The site runs at https://tinilearners.netlify.app (`site.config.json` → `url`). If you add a custom domain in Netlify, update that value too.
 - [ ] **Phone, address, hours and social links.** None, by request.
 - [ ] **Reviews and testimonials.** None yet. No social proof is shown until real reviews exist.
 - [ ] **Images.** The 9 photos live in the public Supabase bucket `tl-site-images`. next/image serves them as WebP/AVIF. Check that the lettering on the book cover reads correctly.
