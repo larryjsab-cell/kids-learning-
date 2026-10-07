@@ -44,26 +44,23 @@ export function FreeSampleForm({ copy, fallbackEmail }: { copy: Copy; fallbackEm
       return;
     }
 
-    const endpoint = process.env.NEXT_PUBLIC_LEAD_WEBHOOK_URL;
-    if (!endpoint) {
-      setStatus("error");
-      setFormError(`Sign-ups aren’t switched on yet. Email ${fallbackEmail} and we’ll send the pages by hand.`);
-      return;
-    }
-
     setStatus("submitting");
     try {
-      const res = await fetch(endpoint, {
+      const res = await fetch("/api/lead", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ form: "Free sample pack", firstName: name, email, page: location.pathname }),
       });
-      if (!res.ok) throw new Error(String(res.status));
+      const data = (await res.json().catch(() => ({}))) as { error?: string };
+      if (!res.ok) throw new Error(data.error);
       setStatus("success");
       form.reset();
-    } catch {
+    } catch (err) {
       setStatus("error");
-      setFormError(`We couldn’t send that just now. Try again in a minute, or email ${fallbackEmail}.`);
+      setFormError(
+        (err instanceof Error && err.message) ||
+          `We couldn’t send that just now. Try again in a minute, or email ${fallbackEmail}.`,
+      );
     }
   }
 

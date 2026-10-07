@@ -1,5 +1,5 @@
 import { Section } from "@/components/ui/Section";
-import { Placeholder } from "@/components/ui/Placeholder";
+import { Photo } from "@/components/ui/Photo";
 import { FreeSampleForm } from "./FreeSampleForm";
 import { homeContent, siteConfig } from "@/lib/content";
 
@@ -16,10 +16,10 @@ export function FreeSample() {
           </div>
         </div>
         <div className="lg:col-span-6">
-          <Placeholder
-            prompt="Five colorful printed worksheet pages fanned out on a table: letter tracing, counting apples to 10, a cut-along-the-line page, a rhyming match and a maze, with a pair of child safety scissors and crayons, top-down, bright natural light, grape purple, sunshine yellow, mint and coral palette"
-            alt="Five free sample worksheet pages fanned out with crayons"
+          <Photo
+            id="freeSample"
             ratio="4/3"
+            sizes="(min-width: 1024px) 50vw, 100vw"
             className="rotate-1 rounded-xl border-2 border-ink shadow-lift"
           />
         </div>

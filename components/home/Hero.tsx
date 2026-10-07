@@ -1,6 +1,6 @@
 import { Container } from "@/components/ui/Container";
 import { ButtonLink } from "@/components/ui/Button";
-import { Placeholder } from "@/components/ui/Placeholder";
+import { Photo } from "@/components/ui/Photo";
 import { Star } from "@/components/ui/Star";
 import { TraceLetter } from "./TraceLetter";
 import { homeContent } from "@/lib/content";
@@ -37,10 +37,11 @@ export function Hero() {
         </div>
 
         <div className="relative mx-auto w-full max-w-md lg:col-span-5 lg:max-w-none">
-          <Placeholder
-            prompt={hero.image.prompt}
-            alt={hero.image.alt}
+          <Photo
+            id="hero"
             ratio="4/5"
+            priority
+            sizes="(min-width: 1024px) 40vw, (min-width: 640px) 28rem, 100vw"
             className="rounded-xl border-2 border-ink shadow-lift"
           />
           <TraceLetter

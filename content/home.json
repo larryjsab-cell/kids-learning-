@@ -7,62 +7,136 @@
     "headline": "Little hands, big leaps.",
     "traceLetter": "a",
     "body": "Learning books and printable PDFs that turn letters, sounds and numbers into 15-minute adventures for preschool to 1st grade.",
-    "primaryCta": { "label": "Meet Alphabet Adventures", "href": "/products/alphabet-adventures" },
-    "secondaryCta": { "label": "Get a free sample pack", "href": "#free-sample" },
+    "primaryCta": {
+      "label": "Meet Alphabet Adventures",
+      "href": "/products/alphabet-adventures"
+    },
+    "secondaryCta": {
+      "label": "Get a free sample pack",
+      "href": "#free-sample"
+    },
     "assurances": [
       "PDFs arrive in your inbox instantly",
       "Printed books ship with the PDF included",
       "Made for ages 3 to 7"
-    ],
-    "image": {
-      "prompt": "Overhead photo of a child’s small hands tracing a large letter 'a' with a chunky purple crayon on a colorful printed workbook page, sunny kitchen table, soft natural light, playful grape purple, sunshine yellow, mint and coral accents, joyful and warm",
-      "alt": "A child tracing the letter a in a TiniLearners workbook"
-    }
+    ]
   },
   "ageBands": {
     "heading": "Find the right page for your learner",
     "intro": "Every book is built around what children are working on at their stage, so practice feels like play instead of homework.",
     "bands": [
-      { "grade": "Preschool", "ages": "Ages 3–4", "color": "accent", "focus": ["Colors and shapes", "Holding a crayon", "Counting to 10"] },
-      { "grade": "Pre-K", "ages": "Ages 4–5", "color": "mint", "focus": ["Letter names", "Tracing lines and curves", "Rhyming words"] },
-      { "grade": "Kindergarten", "ages": "Ages 5–6", "color": "coral", "focus": ["Letter sounds", "Counting to 20", "First sight words"] },
-      { "grade": "1st grade", "ages": "Ages 6–7", "color": "primary", "focus": ["Blending words", "Adding and subtracting", "Writing sentences"] }
+      {
+        "grade": "Preschool",
+        "ages": "Ages 3–4",
+        "color": "accent",
+        "focus": [
+          "Colors and shapes",
+          "Holding a crayon",
+          "Counting to 10"
+        ]
+      },
+      {
+        "grade": "Pre-K",
+        "ages": "Ages 4–5",
+        "color": "mint",
+        "focus": [
+          "Letter names",
+          "Tracing lines and curves",
+          "Rhyming words"
+        ]
+      },
+      {
+        "grade": "Kindergarten",
+        "ages": "Ages 5–6",
+        "color": "coral",
+        "focus": [
+          "Letter sounds",
+          "Counting to 20",
+          "First sight words"
+        ]
+      },
+      {
+        "grade": "1st grade",
+        "ages": "Ages 6–7",
+        "color": "primary",
+        "focus": [
+          "Blending words",
+          "Adding and subtracting",
+          "Writing sentences"
+        ]
+      }
     ]
   },
   "spotlight": {
     "heading": "Start with the alphabet",
     "body": "Alphabet Adventures gives every letter its own two-page adventure. Your child traces it, says its sound, hunts for it in a busy picture and colors it in. One letter a day, about 15 minutes.",
-    "cta": { "label": "See inside Alphabet Adventures", "href": "/products/alphabet-adventures" }
+    "cta": {
+      "label": "See inside Alphabet Adventures",
+      "href": "/products/alphabet-adventures"
+    }
   },
   "howItWorks": {
     "heading": "From checkout to the kitchen table",
     "steps": [
-      { "title": "Pick a book or join the Club", "body": "Choose a PDF, a printed book that comes with the PDF, or a membership that unlocks the whole library." },
-      { "title": "Print it or wait for the mail", "body": "PDFs land in your inbox right after checkout. Printed books ship to your door." },
-      { "title": "Learn together for 15 minutes", "body": "Each page is a short, complete activity, so you can stop on a win and pick it up tomorrow." }
+      {
+        "title": "Pick a book or join the Club",
+        "body": "Choose a PDF, a printed book that comes with the PDF, or a membership that unlocks the whole library."
+      },
+      {
+        "title": "Print it or wait for the mail",
+        "body": "PDFs land in your inbox right after checkout. Printed books ship to your door."
+      },
+      {
+        "title": "Learn together for 15 minutes",
+        "body": "Each page is a short, complete activity, so you can stop on a win and pick it up tomorrow."
+      }
     ]
   },
   "skills": {
     "heading": "The skills that matter before and after kindergarten",
     "intro": "Our pages practice the building blocks teachers look for when children start school.",
     "items": [
-      { "name": "Letter recognition", "body": "Naming uppercase and lowercase letters on sight." },
-      { "name": "Letter sounds", "body": "Matching each letter to the sound it makes." },
-      { "name": "Rhymes and syllables", "body": "Hearing the sounds that make up words." },
-      { "name": "Counting and numbers", "body": "Counting to 20 and pointing to each object while counting." },
-      { "name": "Pencil grip and control", "body": "Tracing lines, curves and letters with a steady hand." },
-      { "name": "Scissor skills", "body": "Cutting along straight and wavy lines." }
+      {
+        "name": "Letter recognition",
+        "body": "Naming uppercase and lowercase letters on sight."
+      },
+      {
+        "name": "Letter sounds",
+        "body": "Matching each letter to the sound it makes."
+      },
+      {
+        "name": "Rhymes and syllables",
+        "body": "Hearing the sounds that make up words."
+      },
+      {
+        "name": "Counting and numbers",
+        "body": "Counting to 20 and pointing to each object while counting."
+      },
+      {
+        "name": "Pencil grip and control",
+        "body": "Tracing lines, curves and letters with a steady hand."
+      },
+      {
+        "name": "Scissor skills",
+        "body": "Cutting along straight and wavy lines."
+      }
     ]
   },
   "membership": {
     "heading": "One membership, every new book free",
     "body": "Join the TiniLearners Club and every PDF in the library is yours, including each new release on the day it comes out.",
-    "cta": { "label": "Join the Club", "href": "/products/alphabet-adventures?plan=club#buy" }
+    "cta": {
+      "label": "Join the Club",
+      "href": "/products/alphabet-adventures?plan=club#buy"
+    }
   },
   "freeSample": {
     "heading": "Try a free sample pack",
     "body": "5 favorite pages from our books, sent to your inbox. Print them tonight and see how your learner likes them.",
-    "fields": { "name": "Your first name", "email": "Email address" },
+    "fields": {
+      "name": "Your first name",
+      "email": "Email address"
+    },
     "submit": "Send my free pages",
     "submitting": "Sending…",
     "success": "Check your inbox. Your free pages are on their way.",
@@ -71,11 +145,26 @@
   "faq": {
     "heading": "Questions parents ask",
     "items": [
-      { "q": "How do I get my PDF?", "a": "Right after checkout we email you a download link. You can print the pages at home or at a print shop." },
-      { "q": "What comes with a printed book?", "a": "We ship the printed book to your address and email you the PDF straight away, so you can start before it arrives." },
-      { "q": "What does the TiniLearners Club include?", "a": "Members get every PDF in our library, and every new PDF we release is free for members on launch day." },
-      { "q": "Which age is each book for?", "a": "Each book lists its age range and grade on its page. Our books cover preschool through 1st grade, roughly ages 3 to 7." },
-      { "q": "Can I print pages more than once?", "a": "Yes. Print as many copies as your own family needs, so siblings can each have a turn." }
+      {
+        "q": "How do I get my PDF?",
+        "a": "Right after checkout we email you a download link. You can print the pages at home or at a print shop."
+      },
+      {
+        "q": "What comes with a printed book?",
+        "a": "We ship the printed book to your address and email you the PDF straight away, so you can start before it arrives."
+      },
+      {
+        "q": "What does the TiniLearners Club include?",
+        "a": "Members get every PDF in our library, and every new PDF we release is free for members on launch day."
+      },
+      {
+        "q": "Which age is each book for?",
+        "a": "Each book lists its age range and grade on its page. Our books cover preschool through 1st grade, roughly ages 3 to 7."
+      },
+      {
+        "q": "Can I print pages more than once?",
+        "a": "Yes. Print as many copies as your own family needs, so siblings can each have a turn."
+      }
     ]
   }
 }

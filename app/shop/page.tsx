@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Section } from "@/components/ui/Section";
-import { Placeholder } from "@/components/ui/Placeholder";
+import { Photo, type PhotoId } from "@/components/ui/Photo";
 import { ButtonLink } from "@/components/ui/Button";
 import { MembershipBand } from "@/components/ui/MembershipBand";
 import { RelatedPages } from "@/components/ui/RelatedPages";
@@ -30,7 +30,12 @@ export default function ShopPage() {
             return (
               <li key={p.slug}>
                 <article className="group relative flex h-full flex-col overflow-hidden rounded-xl border-2 border-ink bg-surface shadow-sticker transition-transform duration-150 hover:-translate-y-1">
-                  <Placeholder prompt={p.gallery[0].prompt} alt={p.gallery[0].alt} ratio="4/3" className="border-b-2 border-ink" />
+                  <Photo
+                    id={p.gallery[0].image as PhotoId}
+                    ratio="4/3"
+                    sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
+                    className="border-b-2 border-ink"
+                  />
                   <div className="flex flex-1 flex-col p-6">
                     <p className="text-small font-semibold text-muted">
                       {p.ages}, {p.pages} pages

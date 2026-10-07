@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Section } from "@/components/ui/Section";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { ChecklistCard } from "@/components/ui/ChecklistCard";
-import { Placeholder } from "@/components/ui/Placeholder";
+import { Photo } from "@/components/ui/Photo";
 import { RelatedPages } from "@/components/ui/RelatedPages";
 import { buttonClasses } from "@/components/ui/Button";
 import { siteConfig } from "@/lib/content";
@@ -26,10 +26,11 @@ export default function AboutPage() {
             </h1>
             <p className="mt-6 max-w-prose text-lead">{about.intro}</p>
           </div>
-          <Placeholder
-            prompt="A parent and a young child side by side at a sunny kitchen table working on a colorful printed activity page with crayons, view from slightly above, warm natural light, grape purple, sunshine yellow, mint and coral accents, candid"
-            alt="A parent and child doing an activity page together"
+          <Photo
+            id="about"
             ratio="4/5"
+            priority
+            sizes="(min-width: 1024px) 40vw, 100vw"
             className="rotate-1 rounded-xl border-2 border-ink shadow-lift lg:col-span-5"
           />
         </div>

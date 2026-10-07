@@ -10,7 +10,7 @@ import { ChecklistCard } from "@/components/ui/ChecklistCard";
 import { FaqList } from "@/components/ui/FaqList";
 import { MembershipBand } from "@/components/ui/MembershipBand";
 import { RelatedPages } from "@/components/ui/RelatedPages";
-import { Placeholder } from "@/components/ui/Placeholder";
+import { Photo } from "@/components/ui/Photo";
 import { getProduct, products } from "@/lib/content";
 import { optionsFor } from "@/lib/checkout";
 
@@ -50,10 +50,10 @@ export default async function ProductPage({ params }: PageProps<"/products/[slug
         <div className="grid items-center gap-12 lg:grid-cols-12">
           <div className="lg:col-span-5">
             <SectionHeading id="outcomes-title" title={product.outcomes.heading} />
-            <Placeholder
-              prompt="A preschooler at a kitchen table proudly holding up a finished, colorful letter tracing page, parent smiling beside them, warm natural light, grape purple, sunshine yellow and mint accents in the room, candid and joyful"
-              alt="A child holding up a finished letter page"
+            <Photo
+              id="outcomes"
               ratio="4/3"
+              sizes="(min-width: 1024px) 40vw, 100vw"
               className="mt-8 -rotate-1 rounded-xl border-2 border-ink shadow-lift"
             />
           </div>

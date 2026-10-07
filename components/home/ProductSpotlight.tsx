@@ -1,6 +1,6 @@
 import { Section } from "@/components/ui/Section";
 import { ButtonLink } from "@/components/ui/Button";
-import { Placeholder } from "@/components/ui/Placeholder";
+import { Photo } from "@/components/ui/Photo";
 import { formatPrice, homeContent, membership, products } from "@/lib/content";
 
 export function ProductSpotlight() {
@@ -42,10 +42,10 @@ export function ProductSpotlight() {
         </div>
 
         <div className="lg:col-span-6">
-          <Placeholder
-            prompt="Product shot of a spiral-bound children's alphabet workbook titled 'Alphabet Adventures' lying open on a bright surface, left page shows a big traceable letter B with dotted guides, right page shows a busy picture of bears and balloons to hunt for the letter, crayons scattered, grape purple and coral palette, soft shadows"
-            alt="Alphabet Adventures open to the letter B pages"
+          <Photo
+            id="spotlight"
             ratio="4/3"
+            sizes="(min-width: 1024px) 50vw, 100vw"
             className="-rotate-2 rounded-xl border-2 border-ink shadow-lift"
           />
         </div>

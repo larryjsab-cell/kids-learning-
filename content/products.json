@@ -45,20 +45,16 @@
       ],
       "gallery": [
         {
-          "alt": "Alphabet Adventures cover with a smiling letter A",
-          "prompt": "Front cover of a children’s alphabet workbook titled 'Alphabet Adventures', a cheerful chunky letter A character with a backpack, grape purple and sunshine yellow, coral accents, clean flat illustration, book standing on a light sky-blue surface, soft studio light"
+          "image": "galleryCover"
         },
         {
-          "alt": "Letter B tracing page with start arrows",
-          "prompt": "Close-up of a children’s worksheet page: big uppercase B and lowercase b on handwriting lines with dotted tracing guides and small numbered start arrows, crayon marks, playful bee illustration, grape and coral palette, top-down"
+          "image": "galleryTracing"
         },
         {
-          "alt": "Find-the-letter picture page full of balloons and bears",
-          "prompt": "Busy, friendly seek-and-find illustration page for preschoolers with bears, balloons, boats and bananas hiding letter b shapes, flat bright illustration, sunshine yellow, mint, coral and grape palette"
+          "image": "gallerySeek"
         },
         {
-          "alt": "Printed Alphabet Adventures book next to a tablet showing the PDF",
-          "prompt": "Printed spiral-bound alphabet workbook next to a tablet showing the same page as a PDF, crayons and a pencil, bright tidy kids' table, soft natural light, grape purple and sunshine yellow accents"
+          "image": "galleryPrintPdf"
         }
       ],
       "routine": {

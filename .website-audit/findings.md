@@ -28,3 +28,13 @@
 - [fixed] 404 text links given 44px targets
 - [deferred] Radio input itself is 20px, but its <label> card (full-width, ≥80px tall) is the hit target — accepted
 - [deferred] "overlapping" reports = intentional 1–2° rotations on image/price cards (2–9px), not bugs
+## Phase 6 — Images
+- [fixed] 9 images generated (Higgsfield gpt_image_2_5 / flare, high, 2k), one consistent style + palette; manifest content/images.json; <Photo> wraps next/image (fill, sizes, priority on hero/product/about only, real alt); Placeholder component removed
+- [fixed] next.config images: AVIF/WebP formats, remotePatterns for Higgsfield CDN — optimizer serves responsive WebP/AVIF in production
+- [deferred] Local WebP copies in /public not made: d8j0ntlcm91z4.cloudfront.net is blocked by this environment's egress policy
+- [not-verified] Rendered images at every breakpoint — sandbox can't fetch CDN; markup verified (alt, sizes, no lazy on hero)
+## Phase 7 — Forms + n8n
+- [fixed] n8n workflow 4j1gDwSjaJ8PpVaU "TiniLearners Website Form to Gmail" published: webhook (token-gated) → Code (escaped, every field labeled, HTML) → Gmail (Gmail account 2) to tinilearners@gmail.com, subject "New Form Submission!", Reply-To = submitter
+- [fixed] Live production execution 3505 succeeded; Gmail message 1a117aafabe3cc82 SENT
+- [fixed] /api/lead: validation 422, honeypot silent 200, upstream failure 502 with email fallback; token kept server-side
+- [not-verified] Browser → /api/lead → n8n hop end-to-end: n8n host blocked by sandbox egress; inbox arrival not visible to me
