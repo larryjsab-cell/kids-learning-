@@ -1,0 +1,36 @@
+{
+  "name": "TiniLearners",
+  "tagline": "Playful learning books and printables for preschool to 1st grade",
+  "url": "https://tinilearners.com",
+  "email": "tinilearners@gmail.com",
+  "phone": null,
+  "address": null,
+  "serviceArea": "Online store, worldwide digital delivery",
+  "hours": null,
+  "audience": "Parents and caregivers of children in preschool through 1st grade (ages 3–7)",
+  "social": [],
+  "nav": [
+    { "label": "Shop", "href": "/shop" },
+    { "label": "Alphabet Adventures", "href": "/products/alphabet-adventures" },
+    { "label": "About", "href": "/about" }
+  ],
+  "navCta": { "label": "Free sample pack", "href": "/#free-sample" },
+  "pages": [
+    { "path": "/", "title": "Home" },
+    { "path": "/shop", "title": "Shop" },
+    { "path": "/about", "title": "About" },
+    { "path": "/products/[slug]", "title": "Product landing pages" }
+  ],
+  "colors": {
+    "grape": "#4B2BB3",
+    "grapeDeep": "#2A1A6E",
+    "ink": "#1F1638",
+    "sunshine": "#FFC93C",
+    "mint": "#3DC98A",
+    "coral": "#FF6F5E",
+    "sky": "#E7F0FF",
+    "paper": "#FFFFFF"
+  },
+  "checkout": "stripe-embedded",
+  "leadMagnet": true
+}

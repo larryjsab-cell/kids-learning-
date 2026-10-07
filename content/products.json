@@ -1,0 +1,43 @@
+{
+  "products": [
+    {
+      "slug": "alphabet-adventures",
+      "isTestProduct": true,
+      "title": "Alphabet Adventures",
+      "subtitle": "Trace, say and find every letter from A to Z",
+      "summary": "A playful A-to-Z book where every letter gets its own adventure: trace it, hear its sound, find it in a picture and color it in.",
+      "ages": "Ages 3–6",
+      "grades": ["Preschool", "Pre-K", "Kindergarten"],
+      "pages": 56,
+      "skills": ["Letter recognition", "Letter sounds", "Pencil control", "Uppercase and lowercase"],
+      "color": "coral",
+      "formats": [
+        {
+          "id": "pdf",
+          "label": "PDF download",
+          "price": 12,
+          "priceNote": "One-time",
+          "detail": "Instant download. Print at home as many times as your family needs."
+        },
+        {
+          "id": "print",
+          "label": "Printed book + PDF",
+          "price": 24,
+          "priceNote": "One-time, plus shipping",
+          "detail": "A printed copy shipped to your door, and the PDF in your inbox today."
+        }
+      ]
+    }
+  ],
+  "membership": {
+    "name": "TiniLearners Club",
+    "price": 9,
+    "interval": "month",
+    "summary": "Every PDF in the library, plus each new release the day it comes out.",
+    "perks": [
+      "Every current PDF in the library",
+      "New PDF releases free on launch day",
+      "Cancel any time from your account"
+    ]
+  }
+}

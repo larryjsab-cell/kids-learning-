@@ -1,0 +1,134 @@
+@import "tailwindcss";
+
+/* ---------- Design tokens ---------- */
+@theme {
+  /* Color: semantic names only */
+  --color-primary: #4b2bb3;
+  --color-primary-deep: #2a1a6e;
+  --color-primary-soft: #d9d2f5;
+  --color-accent: #ffc93c;
+  --color-accent-soft: #fff1c7;
+  --color-mint: #3dc98a;
+  --color-mint-soft: #d4f4e5;
+  --color-coral: #ff6f5e;
+  --color-coral-soft: #ffe0db;
+  --color-ink: #1f1638;
+  --color-muted: #5c5470;
+  --color-surface: #ffffff;
+  --color-surface-alt: #e7f0ff;
+  --color-line: #c9c2e0;
+
+  /* Type families */
+  --font-display: var(--font-grandstander), ui-rounded, system-ui, sans-serif;
+  --font-sans: var(--font-lexend), ui-sans-serif, system-ui, sans-serif;
+
+  /* Type scale (1.25 ratio, named steps) */
+  --text-small: 0.9375rem;
+  --text-small--line-height: 1.5;
+  --text-body: 1.0625rem;
+  --text-body--line-height: 1.65;
+  --text-lead: 1.25rem;
+  --text-lead--line-height: 1.55;
+  --text-h3: 1.5rem;
+  --text-h3--line-height: 1.2;
+  --text-h2: 2.25rem;
+  --text-h2--line-height: 1.1;
+  --text-display: 3rem;
+  --text-display--line-height: 1.1;
+  --text-display-lg: 4.75rem;
+  --text-display-lg--line-height: 1.1;
+  --text-giant: 9rem;
+  --text-giant--line-height: 1;
+
+  /* Radius */
+  --radius-sm: 0.5rem;
+  --radius-md: 1rem;
+  --radius-lg: 1.75rem;
+  --radius-xl: 2.75rem;
+
+  /* Shadows: one sticker shadow, one lift */
+  --shadow-sticker: 0 4px 0 0 var(--color-ink);
+  --shadow-sticker-sm: 0 2px 0 0 var(--color-ink);
+  --shadow-lift: 0 18px 40px -18px rgb(31 22 56 / 0.35);
+
+  /* Containers */
+  --container-prose: 40rem;
+  --container-page: 76rem;
+
+  /* Motion */
+  --ease-bounce: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --animate-pop: pop 0.5s var(--ease-bounce) 2.1s both;
+}
+
+/* ---------- Keyframes ---------- */
+@keyframes trace {
+  from { stroke-dashoffset: 2000; }
+  to { stroke-dashoffset: 0; }
+}
+
+@keyframes fill-in {
+  from { fill-opacity: 0; }
+  to { fill-opacity: 1; }
+}
+
+@keyframes pop {
+  from { transform: scale(0) rotate(-30deg); }
+  to { transform: scale(1) rotate(0); }
+}
+
+/* ---------- Base ---------- */
+@layer base {
+  html {
+    color-scheme: light;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: rgb(75 43 179 / 0.15);
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    background: var(--color-surface);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-size: var(--text-body);
+    line-height: var(--text-body--line-height);
+  }
+  h1, h2, h3 {
+    font-family: var(--font-display);
+    font-weight: 700;
+    text-wrap: balance;
+  }
+  p { text-wrap: pretty; }
+  :focus-visible {
+    outline: 3px solid var(--color-primary);
+    outline-offset: 3px;
+    border-radius: 0.375rem;
+  }
+  ::selection { background: var(--color-accent); color: var(--color-ink); }
+  [id] { scroll-margin-top: 6rem; }
+}
+
+/* Handwriting-paper rules: top line, dashed midline, baseline.
+   Tile is exactly one line box tall so rules repeat per wrapped line. */
+@utility ruled {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='110' viewBox='0 0 24 110' preserveAspectRatio='none'%3E%3Crect y='12' width='24' height='2.5' fill='%23c9c2e0'/%3E%3Crect y='44.5' width='12' height='2.5' fill='%23c9c2e0'/%3E%3Crect y='77.5' width='24' height='3' fill='%23ff6f5e' fill-opacity='.55'/%3E%3C/svg%3E");
+  background-size: 24px 1lh;
+  background-repeat: repeat;
+}
+
+/* Signature trace: outline draws itself, then the letter fills. */
+@utility trace-draw {
+  animation:
+    trace 1.8s var(--ease-out) 0.3s both,
+    fill-in 0.5s var(--ease-out) 1.9s both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-delay: 0ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
