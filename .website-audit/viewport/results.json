@@ -1,0 +1,1991 @@
+{
+  "url": "http://localhost:3000",
+  "generatedAt": "2026-10-07T18:33:24.406Z",
+  "routes": [
+    {
+      "route": "/",
+      "url": "http://localhost:3000/",
+      "widths": [
+        {
+          "width": 320,
+          "status": 200,
+          "screenshot": ".website-audit/viewport/screenshots/home-320.png",
+          "consoleErrors": [],
+          "documentScrollWidth": 320,
+          "viewportWidth": 320,
+          "hasHorizontalScroll": false,
+          "overflowAmount": 0,
+          "overflow": [],
+          "clipped": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            },
+            {
+              "element": "span.sr-only — \"Open menu\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            },
+            {
+              "element": "div.absolute.-left-full.size-px — \"Company\"",
+              "contentHeight": 59,
+              "visibleHeight": 1
+            }
+          ],
+          "smallTargets": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "width": 1,
+              "height": 1
+            },
+            {
+              "element": "input#sample-company",
+              "width": 238,
+              "height": 30
+            }
+          ],
+          "overlapping": [
+            {
+              "element": "div.relative.overflow-hidden.bg-primary-soft — \"Image: Alphabet Adventures open to the l\"",
+              "parent": "div.lg:col-span-6 — \"Image: Alphabet Adventures open to the l\"",
+              "overflowBy": 4
+            }
+          ],
+          "issueCount": 6
+        },
+        {
+          "width": 375,
+          "status": 200,
+          "screenshot": ".website-audit/viewport/screenshots/home-375.png",
+          "consoleErrors": [],
+          "documentScrollWidth": 375,
+          "viewportWidth": 375,
+          "hasHorizontalScroll": false,
+          "overflowAmount": 0,
+          "overflow": [],
+          "clipped": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            },
+            {
+              "element": "span.sr-only — \"Open menu\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            },
+            {
+              "element": "div.absolute.-left-full.size-px — \"Company\"",
+              "contentHeight": 59,
+              "visibleHeight": 1
+            }
+          ],
+          "smallTargets": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "width": 1,
+              "height": 1
+            },
+            {
+              "element": "input#sample-company",
+              "width": 238,
+              "height": 30
+            }
+          ],
+          "overlapping": [
+            {
+              "element": "div.relative.overflow-hidden.bg-primary-soft — \"Image: Alphabet Adventures open to the l\"",
+              "parent": "div.lg:col-span-6 — \"Image: Alphabet Adventures open to the l\"",
+              "overflowBy": 4
+            },
+            {
+              "element": "div.relative.overflow-hidden.bg-primary-soft — \"Image: Five free sample worksheet pages \"",
+              "parent": "div.lg:col-span-6 — \"Image: Five free sample worksheet pages \"",
+              "overflowBy": 2
+            }
+          ],
+          "issueCount": 7
+        },
+        {
+          "width": 390,
+          "status": 200,
+          "screenshot": ".website-audit/viewport/screenshots/home-390.png",
+          "consoleErrors": [],
+          "documentScrollWidth": 390,
+          "viewportWidth": 390,
+          "hasHorizontalScroll": false,
+          "overflowAmount": 0,
+          "overflow": [],
+          "clipped": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            },
+            {
+              "element": "span.sr-only — \"Open menu\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            },
+            {
+              "element": "div.absolute.-left-full.size-px — \"Company\"",
+              "contentHeight": 59,
+              "visibleHeight": 1
+            }
+          ],
+          "smallTargets": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "width": 1,
+              "height": 1
+            },
+            {
+              "element": "input#sample-company",
+              "width": 238,
+              "height": 30
+            }
+          ],
+          "overlapping": [
+            {
+              "element": "div.relative.overflow-hidden.bg-primary-soft — \"Image: Alphabet Adventures open to the l\"",
+              "parent": "div.lg:col-span-6 — \"Image: Alphabet Adventures open to the l\"",
+              "overflowBy": 4
+            },
+            {
+              "element": "div.relative.overflow-hidden.bg-primary-soft — \"Image: Five free sample worksheet pages \"",
+              "parent": "div.lg:col-span-6 — \"Image: Five free sample worksheet pages \"",
+              "overflowBy": 2
+            }
+          ],
+          "issueCount": 7
+        },
+        {
+          "width": 430,
+          "status": 200,
+          "screenshot": ".website-audit/viewport/screenshots/home-430.png",
+          "consoleErrors": [],
+          "documentScrollWidth": 430,
+          "viewportWidth": 430,
+          "hasHorizontalScroll": false,
+          "overflowAmount": 0,
+          "overflow": [],
+          "clipped": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            },
+            {
+              "element": "span.sr-only — \"Open menu\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            },
+            {
+              "element": "div.absolute.-left-full.size-px — \"Company\"",
+              "contentHeight": 59,
+              "visibleHeight": 1
+            }
+          ],
+          "smallTargets": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "width": 1,
+              "height": 1
+            },
+            {
+              "element": "input#sample-company",
+              "width": 238,
+              "height": 30
+            }
+          ],
+          "overlapping": [
+            {
+              "element": "div.relative.overflow-hidden.bg-primary-soft — \"Image: Alphabet Adventures open to the l\"",
+              "parent": "div.lg:col-span-6 — \"Image: Alphabet Adventures open to the l\"",
+              "overflowBy": 5
+            },
+            {
+              "element": "div.relative.overflow-hidden.bg-primary-soft — \"Image: Five free sample worksheet pages \"",
+              "parent": "div.lg:col-span-6 — \"Image: Five free sample worksheet pages \"",
+              "overflowBy": 3
+            }
+          ],
+          "issueCount": 7
+        },
+        {
+          "width": 768,
+          "status": 200,
+          "screenshot": ".website-audit/viewport/screenshots/home-768.png",
+          "consoleErrors": [],
+          "documentScrollWidth": 768,
+          "viewportWidth": 768,
+          "hasHorizontalScroll": false,
+          "overflowAmount": 0,
+          "overflow": [],
+          "clipped": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            },
+            {
+              "element": "div.absolute.-left-full.size-px — \"Company\"",
+              "contentHeight": 59,
+              "visibleHeight": 1
+            }
+          ],
+          "smallTargets": [],
+          "overlapping": [
+            {
+              "element": "div.relative.overflow-hidden.bg-primary-soft — \"Image: Alphabet Adventures open to the l\"",
+              "parent": "div.lg:col-span-6 — \"Image: Alphabet Adventures open to the l\"",
+              "overflowBy": 9
+            },
+            {
+              "element": "div.relative.overflow-hidden.bg-primary-soft — \"Image: Five free sample worksheet pages \"",
+              "parent": "div.lg:col-span-6 — \"Image: Five free sample worksheet pages \"",
+              "overflowBy": 5
+            },
+            {
+              "element": "a.inline-flex.min-h-11.items-center — \"tinilearners@gmail.com\"",
+              "parent": "p — \"tinilearners@gmail.com\"",
+              "overflowBy": 4
+            }
+          ],
+          "issueCount": 5
+        },
+        {
+          "width": 1024,
+          "status": 200,
+          "screenshot": ".website-audit/viewport/screenshots/home-1024.png",
+          "consoleErrors": [],
+          "documentScrollWidth": 1024,
+          "viewportWidth": 1024,
+          "hasHorizontalScroll": false,
+          "overflowAmount": 0,
+          "overflow": [],
+          "clipped": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            },
+            {
+              "element": "div.absolute.-left-full.size-px — \"Company\"",
+              "contentHeight": 59,
+              "visibleHeight": 1
+            }
+          ],
+          "smallTargets": [],
+          "overlapping": [
+            {
+              "element": "li.flex.flex-col.rounded-lg — \"Ages 6–71st gradeBlending wordsAdding an\"",
+              "parent": "ul.mt-12.grid.gap-5 — \"Ages 3–4PreschoolColors and shapesHoldin\"",
+              "overflowBy": 3
+            },
+            {
+              "element": "div.relative.overflow-hidden.bg-primary-soft — \"Image: Alphabet Adventures open to the l\"",
+              "parent": "div.lg:col-span-6 — \"Image: Alphabet Adventures open to the l\"",
+              "overflowBy": 6
+            },
+            {
+              "element": "div.rounded-xl.border-2.border-ink — \"TiniLearners Club$9per month, cancel any\"",
+              "parent": "div.grid.items-center.gap-10 — \"One membership, every new book freeJoin \"",
+              "overflowBy": 6
+            },
+            {
+              "element": "div.relative.overflow-hidden.bg-primary-soft — \"Image: Five free sample worksheet pages \"",
+              "parent": "div.lg:col-span-6 — \"Image: Five free sample worksheet pages \"",
+              "overflowBy": 3
+            }
+          ],
+          "issueCount": 6
+        },
+        {
+          "width": 1280,
+          "status": 200,
+          "screenshot": ".website-audit/viewport/screenshots/home-1280.png",
+          "consoleErrors": [],
+          "documentScrollWidth": 1280,
+          "viewportWidth": 1280,
+          "hasHorizontalScroll": false,
+          "overflowAmount": 0,
+          "overflow": [],
+          "clipped": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            },
+            {
+              "element": "div.absolute.-left-full.size-px — \"Company\"",
+              "contentHeight": 59,
+              "visibleHeight": 1
+            }
+          ],
+          "smallTargets": [],
+          "overlapping": [
+            {
+              "element": "li.flex.flex-col.rounded-lg — \"Ages 6–71st gradeBlending wordsAdding an\"",
+              "parent": "ul.mt-12.grid.gap-5 — \"Ages 3–4PreschoolColors and shapesHoldin\"",
+              "overflowBy": 2
+            },
+            {
+              "element": "div.relative.overflow-hidden.bg-primary-soft — \"Image: Alphabet Adventures open to the l\"",
+              "parent": "div.lg:col-span-6 — \"Image: Alphabet Adventures open to the l\"",
+              "overflowBy": 7
+            },
+            {
+              "element": "div.rounded-xl.border-2.border-ink — \"TiniLearners Club$9per month, cancel any\"",
+              "parent": "div.grid.items-center.gap-10 — \"One membership, every new book freeJoin \"",
+              "overflowBy": 6
+            },
+            {
+              "element": "div.relative.overflow-hidden.bg-primary-soft — \"Image: Five free sample worksheet pages \"",
+              "parent": "div.lg:col-span-6 — \"Image: Five free sample worksheet pages \"",
+              "overflowBy": 3
+            }
+          ],
+          "issueCount": 6
+        },
+        {
+          "width": 1440,
+          "status": 200,
+          "screenshot": ".website-audit/viewport/screenshots/home-1440.png",
+          "consoleErrors": [],
+          "documentScrollWidth": 1440,
+          "viewportWidth": 1440,
+          "hasHorizontalScroll": false,
+          "overflowAmount": 0,
+          "overflow": [],
+          "clipped": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            },
+            {
+              "element": "div.absolute.-left-full.size-px — \"Company\"",
+              "contentHeight": 59,
+              "visibleHeight": 1
+            }
+          ],
+          "smallTargets": [],
+          "overlapping": [
+            {
+              "element": "li.flex.flex-col.rounded-lg — \"Ages 6–71st gradeBlending wordsAdding an\"",
+              "parent": "ul.mt-12.grid.gap-5 — \"Ages 3–4PreschoolColors and shapesHoldin\"",
+              "overflowBy": 2
+            },
+            {
+              "element": "div.relative.overflow-hidden.bg-primary-soft — \"Image: Alphabet Adventures open to the l\"",
+              "parent": "div.lg:col-span-6 — \"Image: Alphabet Adventures open to the l\"",
+              "overflowBy": 7
+            },
+            {
+              "element": "div.rounded-xl.border-2.border-ink — \"TiniLearners Club$9per month, cancel any\"",
+              "parent": "div.grid.items-center.gap-10 — \"One membership, every new book freeJoin \"",
+              "overflowBy": 6
+            },
+            {
+              "element": "div.relative.overflow-hidden.bg-primary-soft — \"Image: Five free sample worksheet pages \"",
+              "parent": "div.lg:col-span-6 — \"Image: Five free sample worksheet pages \"",
+              "overflowBy": 3
+            }
+          ],
+          "issueCount": 6
+        },
+        {
+          "width": 1920,
+          "status": 200,
+          "screenshot": ".website-audit/viewport/screenshots/home-1920.png",
+          "consoleErrors": [],
+          "documentScrollWidth": 1920,
+          "viewportWidth": 1920,
+          "hasHorizontalScroll": false,
+          "overflowAmount": 0,
+          "overflow": [],
+          "clipped": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            },
+            {
+              "element": "div.absolute.-left-full.size-px — \"Company\"",
+              "contentHeight": 59,
+              "visibleHeight": 1
+            }
+          ],
+          "smallTargets": [],
+          "overlapping": [
+            {
+              "element": "li.flex.flex-col.rounded-lg — \"Ages 6–71st gradeBlending wordsAdding an\"",
+              "parent": "ul.mt-12.grid.gap-5 — \"Ages 3–4PreschoolColors and shapesHoldin\"",
+              "overflowBy": 2
+            },
+            {
+              "element": "div.relative.overflow-hidden.bg-primary-soft — \"Image: Alphabet Adventures open to the l\"",
+              "parent": "div.lg:col-span-6 — \"Image: Alphabet Adventures open to the l\"",
+              "overflowBy": 7
+            },
+            {
+              "element": "div.rounded-xl.border-2.border-ink — \"TiniLearners Club$9per month, cancel any\"",
+              "parent": "div.grid.items-center.gap-10 — \"One membership, every new book freeJoin \"",
+              "overflowBy": 6
+            },
+            {
+              "element": "div.relative.overflow-hidden.bg-primary-soft — \"Image: Five free sample worksheet pages \"",
+              "parent": "div.lg:col-span-6 — \"Image: Five free sample worksheet pages \"",
+              "overflowBy": 3
+            }
+          ],
+          "issueCount": 6
+        }
+      ]
+    },
+    {
+      "route": "/shop",
+      "url": "http://localhost:3000/shop",
+      "widths": [
+        {
+          "width": 320,
+          "status": 200,
+          "screenshot": ".website-audit/viewport/screenshots/shop-320.png",
+          "consoleErrors": [],
+          "documentScrollWidth": 320,
+          "viewportWidth": 320,
+          "hasHorizontalScroll": false,
+          "overflowAmount": 0,
+          "overflow": [],
+          "clipped": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            },
+            {
+              "element": "span.sr-only — \"Open menu\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            }
+          ],
+          "smallTargets": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "width": 1,
+              "height": 1
+            }
+          ],
+          "overlapping": [],
+          "issueCount": 3
+        },
+        {
+          "width": 375,
+          "status": 200,
+          "screenshot": ".website-audit/viewport/screenshots/shop-375.png",
+          "consoleErrors": [],
+          "documentScrollWidth": 375,
+          "viewportWidth": 375,
+          "hasHorizontalScroll": false,
+          "overflowAmount": 0,
+          "overflow": [],
+          "clipped": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            },
+            {
+              "element": "span.sr-only — \"Open menu\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            }
+          ],
+          "smallTargets": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "width": 1,
+              "height": 1
+            }
+          ],
+          "overlapping": [],
+          "issueCount": 3
+        },
+        {
+          "width": 390,
+          "status": 200,
+          "screenshot": ".website-audit/viewport/screenshots/shop-390.png",
+          "consoleErrors": [],
+          "documentScrollWidth": 390,
+          "viewportWidth": 390,
+          "hasHorizontalScroll": false,
+          "overflowAmount": 0,
+          "overflow": [],
+          "clipped": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            },
+            {
+              "element": "span.sr-only — \"Open menu\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            }
+          ],
+          "smallTargets": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "width": 1,
+              "height": 1
+            }
+          ],
+          "overlapping": [],
+          "issueCount": 3
+        },
+        {
+          "width": 430,
+          "status": 200,
+          "screenshot": ".website-audit/viewport/screenshots/shop-430.png",
+          "consoleErrors": [],
+          "documentScrollWidth": 430,
+          "viewportWidth": 430,
+          "hasHorizontalScroll": false,
+          "overflowAmount": 0,
+          "overflow": [],
+          "clipped": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            },
+            {
+              "element": "span.sr-only — \"Open menu\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            }
+          ],
+          "smallTargets": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "width": 1,
+              "height": 1
+            }
+          ],
+          "overlapping": [],
+          "issueCount": 3
+        },
+        {
+          "width": 768,
+          "status": 200,
+          "screenshot": ".website-audit/viewport/screenshots/shop-768.png",
+          "consoleErrors": [],
+          "documentScrollWidth": 768,
+          "viewportWidth": 768,
+          "hasHorizontalScroll": false,
+          "overflowAmount": 0,
+          "overflow": [],
+          "clipped": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            }
+          ],
+          "smallTargets": [],
+          "overlapping": [
+            {
+              "element": "a.inline-flex.min-h-11.items-center — \"tinilearners@gmail.com\"",
+              "parent": "p — \"tinilearners@gmail.com\"",
+              "overflowBy": 4
+            }
+          ],
+          "issueCount": 2
+        },
+        {
+          "width": 1024,
+          "status": 200,
+          "screenshot": ".website-audit/viewport/screenshots/shop-1024.png",
+          "consoleErrors": [],
+          "documentScrollWidth": 1024,
+          "viewportWidth": 1024,
+          "hasHorizontalScroll": false,
+          "overflowAmount": 0,
+          "overflow": [],
+          "clipped": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            }
+          ],
+          "smallTargets": [],
+          "overlapping": [
+            {
+              "element": "div.rounded-xl.border-2.border-ink — \"TiniLearners Club$9per month, cancel any\"",
+              "parent": "div.grid.items-center.gap-10 — \"One membership, every new book freeJoin \"",
+              "overflowBy": 6
+            }
+          ],
+          "issueCount": 2
+        },
+        {
+          "width": 1280,
+          "status": 200,
+          "screenshot": ".website-audit/viewport/screenshots/shop-1280.png",
+          "consoleErrors": [],
+          "documentScrollWidth": 1280,
+          "viewportWidth": 1280,
+          "hasHorizontalScroll": false,
+          "overflowAmount": 0,
+          "overflow": [],
+          "clipped": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            }
+          ],
+          "smallTargets": [],
+          "overlapping": [
+            {
+              "element": "div.rounded-xl.border-2.border-ink — \"TiniLearners Club$9per month, cancel any\"",
+              "parent": "div.grid.items-center.gap-10 — \"One membership, every new book freeJoin \"",
+              "overflowBy": 6
+            }
+          ],
+          "issueCount": 2
+        },
+        {
+          "width": 1440,
+          "status": 200,
+          "screenshot": ".website-audit/viewport/screenshots/shop-1440.png",
+          "consoleErrors": [],
+          "documentScrollWidth": 1440,
+          "viewportWidth": 1440,
+          "hasHorizontalScroll": false,
+          "overflowAmount": 0,
+          "overflow": [],
+          "clipped": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            }
+          ],
+          "smallTargets": [],
+          "overlapping": [
+            {
+              "element": "div.rounded-xl.border-2.border-ink — \"TiniLearners Club$9per month, cancel any\"",
+              "parent": "div.grid.items-center.gap-10 — \"One membership, every new book freeJoin \"",
+              "overflowBy": 6
+            }
+          ],
+          "issueCount": 2
+        },
+        {
+          "width": 1920,
+          "status": 200,
+          "screenshot": ".website-audit/viewport/screenshots/shop-1920.png",
+          "consoleErrors": [],
+          "documentScrollWidth": 1920,
+          "viewportWidth": 1920,
+          "hasHorizontalScroll": false,
+          "overflowAmount": 0,
+          "overflow": [],
+          "clipped": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            }
+          ],
+          "smallTargets": [],
+          "overlapping": [
+            {
+              "element": "div.rounded-xl.border-2.border-ink — \"TiniLearners Club$9per month, cancel any\"",
+              "parent": "div.grid.items-center.gap-10 — \"One membership, every new book freeJoin \"",
+              "overflowBy": 6
+            }
+          ],
+          "issueCount": 2
+        }
+      ]
+    },
+    {
+      "route": "/about",
+      "url": "http://localhost:3000/about",
+      "widths": [
+        {
+          "width": 320,
+          "status": 200,
+          "screenshot": ".website-audit/viewport/screenshots/about-320.png",
+          "consoleErrors": [],
+          "documentScrollWidth": 320,
+          "viewportWidth": 320,
+          "hasHorizontalScroll": false,
+          "overflowAmount": 0,
+          "overflow": [],
+          "clipped": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            },
+            {
+              "element": "span.sr-only — \"Open menu\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            }
+          ],
+          "smallTargets": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "width": 1,
+              "height": 1
+            }
+          ],
+          "overlapping": [
+            {
+              "element": "div.relative.overflow-hidden.bg-primary-soft — \"Image: A parent and child doing an activ\"",
+              "parent": "div.grid.items-center.gap-12 — \"Learning that fits in 15 minutesTiniLear\"",
+              "overflowBy": 3
+            }
+          ],
+          "issueCount": 4
+        },
+        {
+          "width": 375,
+          "status": 200,
+          "screenshot": ".website-audit/viewport/screenshots/about-375.png",
+          "consoleErrors": [],
+          "documentScrollWidth": 375,
+          "viewportWidth": 375,
+          "hasHorizontalScroll": false,
+          "overflowAmount": 0,
+          "overflow": [],
+          "clipped": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            },
+            {
+              "element": "span.sr-only — \"Open menu\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            }
+          ],
+          "smallTargets": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "width": 1,
+              "height": 1
+            }
+          ],
+          "overlapping": [
+            {
+              "element": "div.relative.overflow-hidden.bg-primary-soft — \"Image: A parent and child doing an activ\"",
+              "parent": "div.grid.items-center.gap-12 — \"Learning that fits in 15 minutesTiniLear\"",
+              "overflowBy": 4
+            }
+          ],
+          "issueCount": 4
+        },
+        {
+          "width": 390,
+          "status": 200,
+          "screenshot": ".website-audit/viewport/screenshots/about-390.png",
+          "consoleErrors": [],
+          "documentScrollWidth": 390,
+          "viewportWidth": 390,
+          "hasHorizontalScroll": false,
+          "overflowAmount": 0,
+          "overflow": [],
+          "clipped": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            },
+            {
+              "element": "span.sr-only — \"Open menu\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            }
+          ],
+          "smallTargets": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "width": 1,
+              "height": 1
+            }
+          ],
+          "overlapping": [
+            {
+              "element": "div.relative.overflow-hidden.bg-primary-soft — \"Image: A parent and child doing an activ\"",
+              "parent": "div.grid.items-center.gap-12 — \"Learning that fits in 15 minutesTiniLear\"",
+              "overflowBy": 4
+            }
+          ],
+          "issueCount": 4
+        },
+        {
+          "width": 430,
+          "status": 200,
+          "screenshot": ".website-audit/viewport/screenshots/about-430.png",
+          "consoleErrors": [],
+          "documentScrollWidth": 430,
+          "viewportWidth": 430,
+          "hasHorizontalScroll": false,
+          "overflowAmount": 0,
+          "overflow": [],
+          "clipped": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            },
+            {
+              "element": "span.sr-only — \"Open menu\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            }
+          ],
+          "smallTargets": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "width": 1,
+              "height": 1
+            }
+          ],
+          "overlapping": [
+            {
+              "element": "div.relative.overflow-hidden.bg-primary-soft — \"Image: A parent and child doing an activ\"",
+              "parent": "div.grid.items-center.gap-12 — \"Learning that fits in 15 minutesTiniLear\"",
+              "overflowBy": 4
+            }
+          ],
+          "issueCount": 4
+        },
+        {
+          "width": 768,
+          "status": 200,
+          "screenshot": ".website-audit/viewport/screenshots/about-768.png",
+          "consoleErrors": [],
+          "documentScrollWidth": 768,
+          "viewportWidth": 768,
+          "hasHorizontalScroll": false,
+          "overflowAmount": 0,
+          "overflow": [],
+          "clipped": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            }
+          ],
+          "smallTargets": [],
+          "overlapping": [
+            {
+              "element": "div.relative.overflow-hidden.bg-primary-soft — \"Image: A parent and child doing an activ\"",
+              "parent": "div.grid.items-center.gap-12 — \"Learning that fits in 15 minutesTiniLear\"",
+              "overflowBy": 8
+            },
+            {
+              "element": "a.inline-flex.min-h-11.items-center — \"tinilearners@gmail.com\"",
+              "parent": "p — \"tinilearners@gmail.com\"",
+              "overflowBy": 4
+            }
+          ],
+          "issueCount": 3
+        },
+        {
+          "width": 1024,
+          "status": 200,
+          "screenshot": ".website-audit/viewport/screenshots/about-1024.png",
+          "consoleErrors": [],
+          "documentScrollWidth": 1024,
+          "viewportWidth": 1024,
+          "hasHorizontalScroll": false,
+          "overflowAmount": 0,
+          "overflow": [],
+          "clipped": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            }
+          ],
+          "smallTargets": [],
+          "overlapping": [
+            {
+              "element": "div.relative.overflow-hidden.bg-primary-soft — \"Image: A parent and child doing an activ\"",
+              "parent": "div.grid.items-center.gap-12 — \"Learning that fits in 15 minutesTiniLear\"",
+              "overflowBy": 4
+            }
+          ],
+          "issueCount": 2
+        },
+        {
+          "width": 1280,
+          "status": 200,
+          "screenshot": ".website-audit/viewport/screenshots/about-1280.png",
+          "consoleErrors": [],
+          "documentScrollWidth": 1280,
+          "viewportWidth": 1280,
+          "hasHorizontalScroll": false,
+          "overflowAmount": 0,
+          "overflow": [],
+          "clipped": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            }
+          ],
+          "smallTargets": [],
+          "overlapping": [
+            {
+              "element": "div.relative.overflow-hidden.bg-primary-soft — \"Image: A parent and child doing an activ\"",
+              "parent": "div.grid.items-center.gap-12 — \"Learning that fits in 15 minutesTiniLear\"",
+              "overflowBy": 5
+            }
+          ],
+          "issueCount": 2
+        },
+        {
+          "width": 1440,
+          "status": 200,
+          "screenshot": ".website-audit/viewport/screenshots/about-1440.png",
+          "consoleErrors": [],
+          "documentScrollWidth": 1440,
+          "viewportWidth": 1440,
+          "hasHorizontalScroll": false,
+          "overflowAmount": 0,
+          "overflow": [],
+          "clipped": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            }
+          ],
+          "smallTargets": [],
+          "overlapping": [
+            {
+              "element": "div.relative.overflow-hidden.bg-primary-soft — \"Image: A parent and child doing an activ\"",
+              "parent": "div.grid.items-center.gap-12 — \"Learning that fits in 15 minutesTiniLear\"",
+              "overflowBy": 5
+            }
+          ],
+          "issueCount": 2
+        },
+        {
+          "width": 1920,
+          "status": 200,
+          "screenshot": ".website-audit/viewport/screenshots/about-1920.png",
+          "consoleErrors": [],
+          "documentScrollWidth": 1920,
+          "viewportWidth": 1920,
+          "hasHorizontalScroll": false,
+          "overflowAmount": 0,
+          "overflow": [],
+          "clipped": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            }
+          ],
+          "smallTargets": [],
+          "overlapping": [
+            {
+              "element": "div.relative.overflow-hidden.bg-primary-soft — \"Image: A parent and child doing an activ\"",
+              "parent": "div.grid.items-center.gap-12 — \"Learning that fits in 15 minutesTiniLear\"",
+              "overflowBy": 5
+            }
+          ],
+          "issueCount": 2
+        }
+      ]
+    },
+    {
+      "route": "/products/alphabet-adventures",
+      "url": "http://localhost:3000/products/alphabet-adventures",
+      "widths": [
+        {
+          "width": 320,
+          "status": 200,
+          "screenshot": ".website-audit/viewport/screenshots/products-alphabet-adventures-320.png",
+          "consoleErrors": [],
+          "documentScrollWidth": 320,
+          "viewportWidth": 320,
+          "hasHorizontalScroll": false,
+          "overflowAmount": 0,
+          "overflow": [],
+          "clipped": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            },
+            {
+              "element": "span.sr-only — \"Open menu\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            },
+            {
+              "element": "span.sr-only — \"Feature\"",
+              "contentHeight": 31,
+              "visibleHeight": 1
+            },
+            {
+              "element": "span.sr-only — \"Included\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            },
+            {
+              "element": "span.sr-only — \"Not included\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            }
+          ],
+          "smallTargets": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "width": 1,
+              "height": 1
+            },
+            {
+              "element": "input.mt-1.size-5.shrink-0",
+              "width": 20,
+              "height": 20
+            }
+          ],
+          "overlapping": [],
+          "issueCount": 7
+        },
+        {
+          "width": 375,
+          "status": 200,
+          "screenshot": ".website-audit/viewport/screenshots/products-alphabet-adventures-375.png",
+          "consoleErrors": [],
+          "documentScrollWidth": 375,
+          "viewportWidth": 375,
+          "hasHorizontalScroll": false,
+          "overflowAmount": 0,
+          "overflow": [],
+          "clipped": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            },
+            {
+              "element": "span.sr-only — \"Open menu\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            },
+            {
+              "element": "span.sr-only — \"Feature\"",
+              "contentHeight": 31,
+              "visibleHeight": 1
+            },
+            {
+              "element": "span.sr-only — \"Included\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            },
+            {
+              "element": "span.sr-only — \"Not included\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            }
+          ],
+          "smallTargets": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "width": 1,
+              "height": 1
+            },
+            {
+              "element": "input.mt-1.size-5.shrink-0",
+              "width": 20,
+              "height": 20
+            }
+          ],
+          "overlapping": [
+            {
+              "element": "div.relative.overflow-hidden.bg-primary-soft — \"Image: A child holding up a finished let\"",
+              "parent": "div.lg:col-span-5 — \"What your learner practicesImage: A chil\"",
+              "overflowBy": 2
+            }
+          ],
+          "issueCount": 8
+        },
+        {
+          "width": 390,
+          "status": 200,
+          "screenshot": ".website-audit/viewport/screenshots/products-alphabet-adventures-390.png",
+          "consoleErrors": [],
+          "documentScrollWidth": 390,
+          "viewportWidth": 390,
+          "hasHorizontalScroll": false,
+          "overflowAmount": 0,
+          "overflow": [],
+          "clipped": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            },
+            {
+              "element": "span.sr-only — \"Open menu\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            },
+            {
+              "element": "span.sr-only — \"Feature\"",
+              "contentHeight": 31,
+              "visibleHeight": 1
+            },
+            {
+              "element": "span.sr-only — \"Included\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            },
+            {
+              "element": "span.sr-only — \"Not included\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            }
+          ],
+          "smallTargets": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "width": 1,
+              "height": 1
+            },
+            {
+              "element": "input.mt-1.size-5.shrink-0",
+              "width": 20,
+              "height": 20
+            }
+          ],
+          "overlapping": [
+            {
+              "element": "div.relative.overflow-hidden.bg-primary-soft — \"Image: A child holding up a finished let\"",
+              "parent": "div.lg:col-span-5 — \"What your learner practicesImage: A chil\"",
+              "overflowBy": 2
+            }
+          ],
+          "issueCount": 8
+        },
+        {
+          "width": 430,
+          "status": 200,
+          "screenshot": ".website-audit/viewport/screenshots/products-alphabet-adventures-430.png",
+          "consoleErrors": [],
+          "documentScrollWidth": 430,
+          "viewportWidth": 430,
+          "hasHorizontalScroll": false,
+          "overflowAmount": 0,
+          "overflow": [],
+          "clipped": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            },
+            {
+              "element": "span.sr-only — \"Open menu\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            },
+            {
+              "element": "span.sr-only — \"Feature\"",
+              "contentHeight": 31,
+              "visibleHeight": 1
+            },
+            {
+              "element": "span.sr-only — \"Included\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            },
+            {
+              "element": "span.sr-only — \"Not included\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            }
+          ],
+          "smallTargets": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "width": 1,
+              "height": 1
+            },
+            {
+              "element": "input.mt-1.size-5.shrink-0",
+              "width": 20,
+              "height": 20
+            }
+          ],
+          "overlapping": [
+            {
+              "element": "div.relative.overflow-hidden.bg-primary-soft — \"Image: A child holding up a finished let\"",
+              "parent": "div.lg:col-span-5 — \"What your learner practicesImage: A chil\"",
+              "overflowBy": 3
+            }
+          ],
+          "issueCount": 8
+        },
+        {
+          "width": 768,
+          "status": 200,
+          "screenshot": ".website-audit/viewport/screenshots/products-alphabet-adventures-768.png",
+          "consoleErrors": [],
+          "documentScrollWidth": 768,
+          "viewportWidth": 768,
+          "hasHorizontalScroll": false,
+          "overflowAmount": 0,
+          "overflow": [],
+          "clipped": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            },
+            {
+              "element": "span.sr-only — \"Feature\"",
+              "contentHeight": 31,
+              "visibleHeight": 1
+            },
+            {
+              "element": "span.sr-only — \"Included\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            },
+            {
+              "element": "span.sr-only — \"Not included\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            }
+          ],
+          "smallTargets": [],
+          "overlapping": [
+            {
+              "element": "div.relative.overflow-hidden.bg-primary-soft — \"Image: A child holding up a finished let\"",
+              "parent": "div.lg:col-span-5 — \"What your learner practicesImage: A chil\"",
+              "overflowBy": 5
+            },
+            {
+              "element": "a.inline-flex.min-h-11.items-center — \"tinilearners@gmail.com\"",
+              "parent": "p — \"tinilearners@gmail.com\"",
+              "overflowBy": 4
+            }
+          ],
+          "issueCount": 6
+        },
+        {
+          "width": 1024,
+          "status": 200,
+          "screenshot": ".website-audit/viewport/screenshots/products-alphabet-adventures-1024.png",
+          "consoleErrors": [],
+          "documentScrollWidth": 1024,
+          "viewportWidth": 1024,
+          "hasHorizontalScroll": false,
+          "overflowAmount": 0,
+          "overflow": [],
+          "clipped": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            },
+            {
+              "element": "span.sr-only — \"Feature\"",
+              "contentHeight": 31,
+              "visibleHeight": 1
+            },
+            {
+              "element": "span.sr-only — \"Included\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            },
+            {
+              "element": "span.sr-only — \"Not included\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            }
+          ],
+          "smallTargets": [],
+          "overlapping": [
+            {
+              "element": "div.relative.overflow-hidden.bg-primary-soft — \"Image: A child holding up a finished let\"",
+              "parent": "div.lg:col-span-5 — \"What your learner practicesImage: A chil\"",
+              "overflowBy": 2
+            },
+            {
+              "element": "div.rounded-xl.border-2.border-ink — \"TiniLearners Club$9per month, cancel any\"",
+              "parent": "div.grid.items-center.gap-10 — \"Get this book free with the ClubClub mem\"",
+              "overflowBy": 6
+            }
+          ],
+          "issueCount": 6
+        },
+        {
+          "width": 1280,
+          "status": 200,
+          "screenshot": ".website-audit/viewport/screenshots/products-alphabet-adventures-1280.png",
+          "consoleErrors": [],
+          "documentScrollWidth": 1280,
+          "viewportWidth": 1280,
+          "hasHorizontalScroll": false,
+          "overflowAmount": 0,
+          "overflow": [],
+          "clipped": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            },
+            {
+              "element": "span.sr-only — \"Feature\"",
+              "contentHeight": 31,
+              "visibleHeight": 1
+            },
+            {
+              "element": "span.sr-only — \"Included\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            },
+            {
+              "element": "span.sr-only — \"Not included\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            }
+          ],
+          "smallTargets": [],
+          "overlapping": [
+            {
+              "element": "div.relative.overflow-hidden.bg-primary-soft — \"Image: A child holding up a finished let\"",
+              "parent": "div.lg:col-span-5 — \"What your learner practicesImage: A chil\"",
+              "overflowBy": 3
+            },
+            {
+              "element": "div.rounded-xl.border-2.border-ink — \"TiniLearners Club$9per month, cancel any\"",
+              "parent": "div.grid.items-center.gap-10 — \"Get this book free with the ClubClub mem\"",
+              "overflowBy": 6
+            }
+          ],
+          "issueCount": 6
+        },
+        {
+          "width": 1440,
+          "status": 200,
+          "screenshot": ".website-audit/viewport/screenshots/products-alphabet-adventures-1440.png",
+          "consoleErrors": [],
+          "documentScrollWidth": 1440,
+          "viewportWidth": 1440,
+          "hasHorizontalScroll": false,
+          "overflowAmount": 0,
+          "overflow": [],
+          "clipped": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            },
+            {
+              "element": "span.sr-only — \"Feature\"",
+              "contentHeight": 31,
+              "visibleHeight": 1
+            },
+            {
+              "element": "span.sr-only — \"Included\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            },
+            {
+              "element": "span.sr-only — \"Not included\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            }
+          ],
+          "smallTargets": [],
+          "overlapping": [
+            {
+              "element": "div.relative.overflow-hidden.bg-primary-soft — \"Image: A child holding up a finished let\"",
+              "parent": "div.lg:col-span-5 — \"What your learner practicesImage: A chil\"",
+              "overflowBy": 3
+            },
+            {
+              "element": "div.rounded-xl.border-2.border-ink — \"TiniLearners Club$9per month, cancel any\"",
+              "parent": "div.grid.items-center.gap-10 — \"Get this book free with the ClubClub mem\"",
+              "overflowBy": 6
+            }
+          ],
+          "issueCount": 6
+        },
+        {
+          "width": 1920,
+          "status": 200,
+          "screenshot": ".website-audit/viewport/screenshots/products-alphabet-adventures-1920.png",
+          "consoleErrors": [],
+          "documentScrollWidth": 1920,
+          "viewportWidth": 1920,
+          "hasHorizontalScroll": false,
+          "overflowAmount": 0,
+          "overflow": [],
+          "clipped": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            },
+            {
+              "element": "span.sr-only — \"Feature\"",
+              "contentHeight": 31,
+              "visibleHeight": 1
+            },
+            {
+              "element": "span.sr-only — \"Included\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            },
+            {
+              "element": "span.sr-only — \"Not included\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            }
+          ],
+          "smallTargets": [],
+          "overlapping": [
+            {
+              "element": "div.relative.overflow-hidden.bg-primary-soft — \"Image: A child holding up a finished let\"",
+              "parent": "div.lg:col-span-5 — \"What your learner practicesImage: A chil\"",
+              "overflowBy": 3
+            },
+            {
+              "element": "div.rounded-xl.border-2.border-ink — \"TiniLearners Club$9per month, cancel any\"",
+              "parent": "div.grid.items-center.gap-10 — \"Get this book free with the ClubClub mem\"",
+              "overflowBy": 6
+            }
+          ],
+          "issueCount": 6
+        }
+      ]
+    },
+    {
+      "route": "/checkout/complete",
+      "url": "http://localhost:3000/checkout/complete",
+      "widths": [
+        {
+          "width": 320,
+          "status": 200,
+          "screenshot": ".website-audit/viewport/screenshots/checkout-complete-320.png",
+          "consoleErrors": [],
+          "documentScrollWidth": 320,
+          "viewportWidth": 320,
+          "hasHorizontalScroll": false,
+          "overflowAmount": 0,
+          "overflow": [],
+          "clipped": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            },
+            {
+              "element": "span.sr-only — \"Open menu\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            }
+          ],
+          "smallTargets": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "width": 1,
+              "height": 1
+            }
+          ],
+          "overlapping": [],
+          "issueCount": 3
+        },
+        {
+          "width": 375,
+          "status": 200,
+          "screenshot": ".website-audit/viewport/screenshots/checkout-complete-375.png",
+          "consoleErrors": [],
+          "documentScrollWidth": 375,
+          "viewportWidth": 375,
+          "hasHorizontalScroll": false,
+          "overflowAmount": 0,
+          "overflow": [],
+          "clipped": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            },
+            {
+              "element": "span.sr-only — \"Open menu\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            }
+          ],
+          "smallTargets": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "width": 1,
+              "height": 1
+            }
+          ],
+          "overlapping": [],
+          "issueCount": 3
+        },
+        {
+          "width": 390,
+          "status": 200,
+          "screenshot": ".website-audit/viewport/screenshots/checkout-complete-390.png",
+          "consoleErrors": [],
+          "documentScrollWidth": 390,
+          "viewportWidth": 390,
+          "hasHorizontalScroll": false,
+          "overflowAmount": 0,
+          "overflow": [],
+          "clipped": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            },
+            {
+              "element": "span.sr-only — \"Open menu\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            }
+          ],
+          "smallTargets": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "width": 1,
+              "height": 1
+            }
+          ],
+          "overlapping": [],
+          "issueCount": 3
+        },
+        {
+          "width": 430,
+          "status": 200,
+          "screenshot": ".website-audit/viewport/screenshots/checkout-complete-430.png",
+          "consoleErrors": [],
+          "documentScrollWidth": 430,
+          "viewportWidth": 430,
+          "hasHorizontalScroll": false,
+          "overflowAmount": 0,
+          "overflow": [],
+          "clipped": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            },
+            {
+              "element": "span.sr-only — \"Open menu\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            }
+          ],
+          "smallTargets": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "width": 1,
+              "height": 1
+            }
+          ],
+          "overlapping": [],
+          "issueCount": 3
+        },
+        {
+          "width": 768,
+          "status": 200,
+          "screenshot": ".website-audit/viewport/screenshots/checkout-complete-768.png",
+          "consoleErrors": [],
+          "documentScrollWidth": 768,
+          "viewportWidth": 768,
+          "hasHorizontalScroll": false,
+          "overflowAmount": 0,
+          "overflow": [],
+          "clipped": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            }
+          ],
+          "smallTargets": [],
+          "overlapping": [
+            {
+              "element": "a.inline-flex.min-h-11.items-center — \"tinilearners@gmail.com\"",
+              "parent": "p — \"tinilearners@gmail.com\"",
+              "overflowBy": 4
+            }
+          ],
+          "issueCount": 2
+        },
+        {
+          "width": 1024,
+          "status": 200,
+          "screenshot": ".website-audit/viewport/screenshots/checkout-complete-1024.png",
+          "consoleErrors": [],
+          "documentScrollWidth": 1024,
+          "viewportWidth": 1024,
+          "hasHorizontalScroll": false,
+          "overflowAmount": 0,
+          "overflow": [],
+          "clipped": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            }
+          ],
+          "smallTargets": [],
+          "overlapping": [],
+          "issueCount": 1
+        },
+        {
+          "width": 1280,
+          "status": 200,
+          "screenshot": ".website-audit/viewport/screenshots/checkout-complete-1280.png",
+          "consoleErrors": [],
+          "documentScrollWidth": 1280,
+          "viewportWidth": 1280,
+          "hasHorizontalScroll": false,
+          "overflowAmount": 0,
+          "overflow": [],
+          "clipped": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            }
+          ],
+          "smallTargets": [],
+          "overlapping": [],
+          "issueCount": 1
+        },
+        {
+          "width": 1440,
+          "status": 200,
+          "screenshot": ".website-audit/viewport/screenshots/checkout-complete-1440.png",
+          "consoleErrors": [],
+          "documentScrollWidth": 1440,
+          "viewportWidth": 1440,
+          "hasHorizontalScroll": false,
+          "overflowAmount": 0,
+          "overflow": [],
+          "clipped": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            }
+          ],
+          "smallTargets": [],
+          "overlapping": [],
+          "issueCount": 1
+        },
+        {
+          "width": 1920,
+          "status": 200,
+          "screenshot": ".website-audit/viewport/screenshots/checkout-complete-1920.png",
+          "consoleErrors": [],
+          "documentScrollWidth": 1920,
+          "viewportWidth": 1920,
+          "hasHorizontalScroll": false,
+          "overflowAmount": 0,
+          "overflow": [],
+          "clipped": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            }
+          ],
+          "smallTargets": [],
+          "overlapping": [],
+          "issueCount": 1
+        }
+      ]
+    },
+    {
+      "route": "/nope",
+      "url": "http://localhost:3000/nope",
+      "widths": [
+        {
+          "width": 320,
+          "status": 404,
+          "screenshot": ".website-audit/viewport/screenshots/nope-320.png",
+          "consoleErrors": [
+            "Failed to load resource: the server responded with a status of 404 (Not Found)"
+          ],
+          "documentScrollWidth": 320,
+          "viewportWidth": 320,
+          "hasHorizontalScroll": false,
+          "overflowAmount": 0,
+          "overflow": [],
+          "clipped": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            },
+            {
+              "element": "span.sr-only — \"Open menu\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            }
+          ],
+          "smallTargets": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "width": 1,
+              "height": 1
+            }
+          ],
+          "overlapping": [],
+          "issueCount": 3
+        },
+        {
+          "width": 375,
+          "status": 404,
+          "screenshot": ".website-audit/viewport/screenshots/nope-375.png",
+          "consoleErrors": [
+            "Failed to load resource: the server responded with a status of 404 (Not Found)"
+          ],
+          "documentScrollWidth": 375,
+          "viewportWidth": 375,
+          "hasHorizontalScroll": false,
+          "overflowAmount": 0,
+          "overflow": [],
+          "clipped": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            },
+            {
+              "element": "span.sr-only — \"Open menu\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            }
+          ],
+          "smallTargets": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "width": 1,
+              "height": 1
+            }
+          ],
+          "overlapping": [],
+          "issueCount": 3
+        },
+        {
+          "width": 390,
+          "status": 404,
+          "screenshot": ".website-audit/viewport/screenshots/nope-390.png",
+          "consoleErrors": [
+            "Failed to load resource: the server responded with a status of 404 (Not Found)"
+          ],
+          "documentScrollWidth": 390,
+          "viewportWidth": 390,
+          "hasHorizontalScroll": false,
+          "overflowAmount": 0,
+          "overflow": [],
+          "clipped": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            },
+            {
+              "element": "span.sr-only — \"Open menu\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            }
+          ],
+          "smallTargets": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "width": 1,
+              "height": 1
+            }
+          ],
+          "overlapping": [],
+          "issueCount": 3
+        },
+        {
+          "width": 430,
+          "status": 404,
+          "screenshot": ".website-audit/viewport/screenshots/nope-430.png",
+          "consoleErrors": [
+            "Failed to load resource: the server responded with a status of 404 (Not Found)"
+          ],
+          "documentScrollWidth": 430,
+          "viewportWidth": 430,
+          "hasHorizontalScroll": false,
+          "overflowAmount": 0,
+          "overflow": [],
+          "clipped": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            },
+            {
+              "element": "span.sr-only — \"Open menu\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            }
+          ],
+          "smallTargets": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "width": 1,
+              "height": 1
+            }
+          ],
+          "overlapping": [],
+          "issueCount": 3
+        },
+        {
+          "width": 768,
+          "status": 404,
+          "screenshot": ".website-audit/viewport/screenshots/nope-768.png",
+          "consoleErrors": [
+            "Failed to load resource: the server responded with a status of 404 (Not Found)"
+          ],
+          "documentScrollWidth": 768,
+          "viewportWidth": 768,
+          "hasHorizontalScroll": false,
+          "overflowAmount": 0,
+          "overflow": [],
+          "clipped": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            }
+          ],
+          "smallTargets": [],
+          "overlapping": [
+            {
+              "element": "a.inline-flex.min-h-11.items-center — \"tinilearners@gmail.com\"",
+              "parent": "p — \"tinilearners@gmail.com\"",
+              "overflowBy": 4
+            }
+          ],
+          "issueCount": 2
+        },
+        {
+          "width": 1024,
+          "status": 404,
+          "screenshot": ".website-audit/viewport/screenshots/nope-1024.png",
+          "consoleErrors": [
+            "Failed to load resource: the server responded with a status of 404 (Not Found)"
+          ],
+          "documentScrollWidth": 1024,
+          "viewportWidth": 1024,
+          "hasHorizontalScroll": false,
+          "overflowAmount": 0,
+          "overflow": [],
+          "clipped": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            }
+          ],
+          "smallTargets": [],
+          "overlapping": [],
+          "issueCount": 1
+        },
+        {
+          "width": 1280,
+          "status": 404,
+          "screenshot": ".website-audit/viewport/screenshots/nope-1280.png",
+          "consoleErrors": [
+            "Failed to load resource: the server responded with a status of 404 (Not Found)"
+          ],
+          "documentScrollWidth": 1280,
+          "viewportWidth": 1280,
+          "hasHorizontalScroll": false,
+          "overflowAmount": 0,
+          "overflow": [],
+          "clipped": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            }
+          ],
+          "smallTargets": [],
+          "overlapping": [],
+          "issueCount": 1
+        },
+        {
+          "width": 1440,
+          "status": 404,
+          "screenshot": ".website-audit/viewport/screenshots/nope-1440.png",
+          "consoleErrors": [
+            "Failed to load resource: the server responded with a status of 404 (Not Found)"
+          ],
+          "documentScrollWidth": 1440,
+          "viewportWidth": 1440,
+          "hasHorizontalScroll": false,
+          "overflowAmount": 0,
+          "overflow": [],
+          "clipped": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            }
+          ],
+          "smallTargets": [],
+          "overlapping": [],
+          "issueCount": 1
+        },
+        {
+          "width": 1920,
+          "status": 404,
+          "screenshot": ".website-audit/viewport/screenshots/nope-1920.png",
+          "consoleErrors": [
+            "Failed to load resource: the server responded with a status of 404 (Not Found)"
+          ],
+          "documentScrollWidth": 1920,
+          "viewportWidth": 1920,
+          "hasHorizontalScroll": false,
+          "overflowAmount": 0,
+          "overflow": [],
+          "clipped": [
+            {
+              "element": "a.sr-only.focus:not-sr-only.focus:fixed — \"Skip to content\"",
+              "contentHeight": 30,
+              "visibleHeight": 1
+            }
+          ],
+          "smallTargets": [],
+          "overlapping": [],
+          "issueCount": 1
+        }
+      ]
+    }
+  ]
+}

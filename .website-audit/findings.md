@@ -22,3 +22,9 @@
 - [not-verified] Live Stripe payment — no keys in environment
 ## Phase 4 — Internal links
 - [fixed] Every page has RelatedPages or contextual links (home FAQ → About added); all pages ≤1 click from home via nav
+## Phase 5 — Responsive
+- [fixed] Viewport sweep 6 routes × 9 widths (320–1920): 0 horizontal scroll
+- [fixed] text-small raised 15px→16px, body 17→18px (no mobile text <16px)
+- [fixed] 404 text links given 44px targets
+- [deferred] Radio input itself is 20px, but its <label> card (full-width, ≥80px tall) is the hit target — accepted
+- [deferred] "overlapping" reports = intentional 1–2° rotations on image/price cards (2–9px), not bugs

@@ -12,8 +12,8 @@ export default function NotFound() {
       </p>
       <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center sm:gap-8">
         <ButtonLink href="/">Go to the home page</ButtonLink>
-        <TextLink href="/shop">Browse the shop</TextLink>
-        <TextLink href="/products/alphabet-adventures">See Alphabet Adventures</TextLink>
+        <TextLink href="/shop" className="inline-flex min-h-11 items-center">Browse the shop</TextLink>
+        <TextLink href="/products/alphabet-adventures" className="inline-flex min-h-11 items-center">See Alphabet Adventures</TextLink>
       </div>
     </Section>
   );
