@@ -35,7 +35,10 @@ const nextConfig: NextConfig = {
   partialPrefetching: true,
   images: {
     formats: ["image/avif", "image/webp"],
-    remotePatterns: [{ protocol: "https", hostname: "d8j0ntlcm91z4.cloudfront.net", pathname: "/user_3K44HdEILJ9df82dJk3AVq7ZnUJ/**" }],
+    // Site photos live in the public Supabase bucket tl-site-images.
+    remotePatterns: [
+      { protocol: "https", hostname: "woejhqidgykrcdyktuio.supabase.co", pathname: "/storage/v1/object/public/tl-site-images/**" },
+    ],
   },
   turbopack: {
     rules: {

@@ -58,3 +58,12 @@
 - [fixed] Security headers: CSP (Stripe-allowlisted), HSTS, nosniff, X-Frame-Options DENY, Referrer-Policy, Permissions-Policy; x-powered-by off
 - [fixed] Styled 404 with recovery links
 - [fixed] lint, typecheck, production build clean
+## Supabase + n8n integration
+- [fixed] Supabase project ryzon-automation: tables tl_config, tl_products, tl_leads, tl_orders, tl_members (RLS on, no policies → service-role only); buckets tl-site-images (public), tl-pdfs (private). Migration copy in supabase/migrations
+- [fixed] Edge function `tinilearners` (token-gated): import_images, lead, order (idempotent on stripe_session_id, 7-day signed PDF links), mark_fulfilled, member_status. Source in supabase/functions/tinilearners
+- [fixed] 9 photos copied CDN → tl-site-images via one-off n8n workflow (archived); site now serves them from Supabase
+- [fixed] n8n "TiniLearners Website Form to Gmail" also saves leads to tl_leads (verified row written, exec 3508)
+- [fixed] n8n "TiniLearners Order Fulfilment" (M2zqOgYbozrCNk24) published; live test exec 3509: order recorded, customer + owner emails SENT, marked fulfilled; replay exec 3510 skipped as duplicate
+- [fixed] /api/stripe/webhook verifies Stripe signature (bad sig → 400), forwards order/subscription events to n8n (non-2xx → Stripe retries)
+- [deferred] 2 test rows remain (delete via MCP timed out); PDF not uploaded; Supabase advisor INFO "RLS enabled, no policy" is intentional
+- [not-verified] Real Stripe event end to end (no Stripe account keys)
