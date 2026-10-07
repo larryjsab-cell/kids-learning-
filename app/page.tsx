@@ -7,6 +7,8 @@ import { SkillsChecklist } from "@/components/home/SkillsChecklist";
 import { MembershipBand } from "@/components/ui/MembershipBand";
 import { FreeSample } from "@/components/home/FreeSample";
 import { Faq } from "@/components/home/Faq";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { faqSchema, organizationSchema, websiteSchema } from "@/lib/schema";
 import { homeContent } from "@/lib/content";
 
 export const metadata: Metadata = {
@@ -19,6 +21,7 @@ export const metadata: Metadata = {
 export default function HomePage() {
   return (
     <>
+      <JsonLd data={[organizationSchema(), websiteSchema(), faqSchema(homeContent.faq.items)]} />
       <Hero />
       <AgeBands />
       <ProductSpotlight />

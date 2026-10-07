@@ -1,0 +1,470 @@
+{
+  "url": "http://localhost:3000",
+  "generatedAt": "2026-10-07T18:44:01.500Z",
+  "routeSource": "sitemap.xml",
+  "routes": [
+    {
+      "route": "/",
+      "url": "http://localhost:3000/",
+      "status": 200,
+      "title": "TiniLearners | Learning books and printables for ages 3–7",
+      "description": "Playful learning books and printable PDFs that teach letters, sounds, numbers and pencil skills from preschool to 1st grade. Download or get them shipped.",
+      "canonical": "https://tinilearners.com",
+      "robots": null,
+      "viewport": "width=device-width, initial-scale=1",
+      "lang": "en",
+      "og": {
+        "title": "TiniLearners | Learning books and printables for ages 3–7",
+        "description": "Playful learning books and printable PDFs that teach letters, sounds, numbers and pencil skills from preschool to 1st grade. Download or get them shipped.",
+        "image": "https://tinilearners.com/opengraph-image?9f51e7290b015d29",
+        "url": "https://tinilearners.com",
+        "type": null
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "title": "TiniLearners | Learning books and printables for ages 3–7",
+        "image": "https://tinilearners.com/opengraph-image?9f51e7290b015d29"
+      },
+      "headings": [
+        {
+          "level": 1,
+          "text": "Little hands, big leaps."
+        },
+        {
+          "level": 2,
+          "text": "Find the right page for your learner"
+        },
+        {
+          "level": 3,
+          "text": "Preschool"
+        },
+        {
+          "level": 3,
+          "text": "Pre-K"
+        },
+        {
+          "level": 3,
+          "text": "Kindergarten"
+        },
+        {
+          "level": 3,
+          "text": "1st grade"
+        },
+        {
+          "level": 2,
+          "text": "Start with the alphabet"
+        },
+        {
+          "level": 2,
+          "text": "From checkout to the kitchen table"
+        },
+        {
+          "level": 3,
+          "text": "Pick a book or join the Club"
+        },
+        {
+          "level": 3,
+          "text": "Print it or wait for the mail"
+        },
+        {
+          "level": 3,
+          "text": "Learn together for 15 minutes"
+        },
+        {
+          "level": 2,
+          "text": "The skills that matter before and after kindergarten"
+        },
+        {
+          "level": 3,
+          "text": "Letter recognition"
+        },
+        {
+          "level": 3,
+          "text": "Letter sounds"
+        },
+        {
+          "level": 3,
+          "text": "Rhymes and syllables"
+        },
+        {
+          "level": 3,
+          "text": "Counting and numbers"
+        },
+        {
+          "level": 3,
+          "text": "Pencil grip and control"
+        },
+        {
+          "level": 3,
+          "text": "Scissor skills"
+        },
+        {
+          "level": 2,
+          "text": "One membership, every new book free"
+        },
+        {
+          "level": 2,
+          "text": "Try a free sample pack"
+        },
+        {
+          "level": 2,
+          "text": "Questions parents ask"
+        },
+        {
+          "level": 2,
+          "text": "Explore"
+        },
+        {
+          "level": 2,
+          "text": "Say hello"
+        }
+      ],
+      "headingProblems": [],
+      "imageCount": 3,
+      "missingAlt": [],
+      "decorativeAlt": 0,
+      "internalLinkCount": 21,
+      "externalLinkCount": 0,
+      "vagueAnchors": [],
+      "jsonLd": [
+        {
+          "valid": true,
+          "types": [
+            "OnlineStore",
+            "WebSite",
+            "FAQPage"
+          ],
+          "keys": [
+            "@context",
+            "@type",
+            "@id",
+            "name",
+            "url",
+            "logo",
+            "email",
+            "description",
+            "areaServed",
+            "contactPoint"
+          ]
+        }
+      ],
+      "wordCount": 565,
+      "issues": []
+    },
+    {
+      "route": "/shop",
+      "url": "http://localhost:3000/shop",
+      "status": 200,
+      "title": "Shop learning books and printable PDFs | TiniLearners",
+      "description": "Browse TiniLearners learning books and printable PDFs for preschool, pre-K, kindergarten and 1st grade. Instant PDF downloads or printed books shipped.",
+      "canonical": "https://tinilearners.com/shop",
+      "robots": null,
+      "viewport": "width=device-width, initial-scale=1",
+      "lang": "en",
+      "og": {
+        "title": "Shop learning books and printable PDFs",
+        "description": "Browse TiniLearners learning books and printable PDFs for preschool, pre-K, kindergarten and 1st grade. Instant PDF downloads or printed books shipped.",
+        "image": "https://tinilearners.com/shop/opengraph-image?53bb5beb9e60d507",
+        "url": "https://tinilearners.com/shop",
+        "type": null
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "title": "Shop learning books and printable PDFs",
+        "image": "https://tinilearners.com/shop/opengraph-image?53bb5beb9e60d507"
+      },
+      "headings": [
+        {
+          "level": 1,
+          "text": "Books and printables"
+        },
+        {
+          "level": 2,
+          "text": "Alphabet Adventures"
+        },
+        {
+          "level": 2,
+          "text": "More books are on the way"
+        },
+        {
+          "level": 2,
+          "text": "Find the right page for your learner"
+        },
+        {
+          "level": 3,
+          "text": "Preschool"
+        },
+        {
+          "level": 3,
+          "text": "Pre-K"
+        },
+        {
+          "level": 3,
+          "text": "Kindergarten"
+        },
+        {
+          "level": 3,
+          "text": "1st grade"
+        },
+        {
+          "level": 2,
+          "text": "One membership, every new book free"
+        },
+        {
+          "level": 2,
+          "text": "Keep exploring"
+        },
+        {
+          "level": 2,
+          "text": "Explore"
+        },
+        {
+          "level": 2,
+          "text": "Say hello"
+        }
+      ],
+      "headingProblems": [],
+      "imageCount": 1,
+      "missingAlt": [],
+      "decorativeAlt": 0,
+      "internalLinkCount": 21,
+      "externalLinkCount": 0,
+      "vagueAnchors": [],
+      "jsonLd": [
+        {
+          "valid": true,
+          "types": [
+            "BreadcrumbList"
+          ],
+          "keys": [
+            "@context",
+            "@type",
+            "itemListElement"
+          ]
+        }
+      ],
+      "wordCount": 290,
+      "issues": [
+        "thin content: 290 words"
+      ]
+    },
+    {
+      "route": "/about",
+      "url": "http://localhost:3000/about",
+      "status": 200,
+      "title": "About TiniLearners | Playful learning for ages 3–7",
+      "description": "Why TiniLearners makes short, playful learning books and printables for children from preschool to 1st grade, and how every page is designed.",
+      "canonical": "https://tinilearners.com/about",
+      "robots": null,
+      "viewport": "width=device-width, initial-scale=1",
+      "lang": "en",
+      "og": {
+        "title": "About TiniLearners | Playful learning for ages 3–7",
+        "description": "Why TiniLearners makes short, playful learning books and printables for children from preschool to 1st grade, and how every page is designed.",
+        "image": "https://tinilearners.com/about/opengraph-image?d0cc6aafa50a5184",
+        "url": "https://tinilearners.com/about",
+        "type": null
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "title": "About TiniLearners | Playful learning for ages 3–7",
+        "image": "https://tinilearners.com/about/opengraph-image?d0cc6aafa50a5184"
+      },
+      "headings": [
+        {
+          "level": 1,
+          "text": "Learning that fits in 15 minutes"
+        },
+        {
+          "level": 2,
+          "text": "How we design every page"
+        },
+        {
+          "level": 3,
+          "text": "Short pages that end on a win"
+        },
+        {
+          "level": 3,
+          "text": "A routine children can predict"
+        },
+        {
+          "level": 3,
+          "text": "Paper first"
+        },
+        {
+          "level": 3,
+          "text": "Skills teachers look for"
+        },
+        {
+          "level": 2,
+          "text": "Who we make books for"
+        },
+        {
+          "level": 2,
+          "text": "Get in touch"
+        },
+        {
+          "level": 2,
+          "text": "Keep exploring"
+        },
+        {
+          "level": 2,
+          "text": "Explore"
+        },
+        {
+          "level": 2,
+          "text": "Say hello"
+        }
+      ],
+      "headingProblems": [],
+      "imageCount": 1,
+      "missingAlt": [],
+      "decorativeAlt": 0,
+      "internalLinkCount": 18,
+      "externalLinkCount": 0,
+      "vagueAnchors": [],
+      "jsonLd": [
+        {
+          "valid": true,
+          "types": [
+            "BreadcrumbList"
+          ],
+          "keys": [
+            "@context",
+            "@type",
+            "itemListElement"
+          ]
+        }
+      ],
+      "wordCount": 304,
+      "issues": []
+    },
+    {
+      "route": "/products/alphabet-adventures",
+      "url": "http://localhost:3000/products/alphabet-adventures",
+      "status": 200,
+      "title": "Alphabet Adventures | Letter tracing book for ages 3–6",
+      "description": "A playful A-to-Z book where every letter gets its own adventure: trace it, hear its sound, find it in a picture and color it in.",
+      "canonical": "https://tinilearners.com/products/alphabet-adventures",
+      "robots": null,
+      "viewport": "width=device-width, initial-scale=1",
+      "lang": "en",
+      "og": {
+        "title": "Alphabet Adventures | Letter tracing book for ages 3–6",
+        "description": "A playful A-to-Z book where every letter gets its own adventure: trace it, hear its sound, find it in a picture and color it in.",
+        "image": "https://tinilearners.com/products/alphabet-adventures/opengraph-image?d1b688e74d4aaf10",
+        "url": "https://tinilearners.com/products/alphabet-adventures",
+        "type": "website"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "title": "Alphabet Adventures | Letter tracing book for ages 3–6",
+        "image": "https://tinilearners.com/products/alphabet-adventures/opengraph-image?d1b688e74d4aaf10"
+      },
+      "headings": [
+        {
+          "level": 1,
+          "text": "Alphabet Adventures"
+        },
+        {
+          "level": 2,
+          "text": "One letter, four little steps"
+        },
+        {
+          "level": 3,
+          "text": "Trace it"
+        },
+        {
+          "level": 3,
+          "text": "Say it"
+        },
+        {
+          "level": 3,
+          "text": "Find it"
+        },
+        {
+          "level": 3,
+          "text": "Color it"
+        },
+        {
+          "level": 2,
+          "text": "What your learner practices"
+        },
+        {
+          "level": 3,
+          "text": "Letter recognition"
+        },
+        {
+          "level": 3,
+          "text": "Letter sounds"
+        },
+        {
+          "level": 3,
+          "text": "Pencil control"
+        },
+        {
+          "level": 3,
+          "text": "Focus and finishing"
+        },
+        {
+          "level": 2,
+          "text": "Pick the way that suits your family"
+        },
+        {
+          "level": 2,
+          "text": "Get this book free with the Club"
+        },
+        {
+          "level": 2,
+          "text": "Questions about Alphabet Adventures"
+        },
+        {
+          "level": 2,
+          "text": "Keep exploring"
+        },
+        {
+          "level": 2,
+          "text": "Explore"
+        },
+        {
+          "level": 2,
+          "text": "Say hello"
+        }
+      ],
+      "headingProblems": [],
+      "imageCount": 6,
+      "missingAlt": [],
+      "decorativeAlt": 4,
+      "internalLinkCount": 19,
+      "externalLinkCount": 0,
+      "vagueAnchors": [],
+      "jsonLd": [
+        {
+          "valid": true,
+          "types": [
+            "Product",
+            "BreadcrumbList",
+            "FAQPage"
+          ],
+          "keys": [
+            "@context",
+            "@type",
+            "name",
+            "description",
+            "url",
+            "image",
+            "brand",
+            "audience",
+            "offers"
+          ]
+        }
+      ],
+      "wordCount": 580,
+      "issues": []
+    }
+  ],
+  "crossRoute": {
+    "duplicateTitles": [],
+    "duplicateDescriptions": []
+  }
+}

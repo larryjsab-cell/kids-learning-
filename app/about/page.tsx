@@ -7,9 +7,11 @@ import { RelatedPages } from "@/components/ui/RelatedPages";
 import { buttonClasses } from "@/components/ui/Button";
 import { siteConfig } from "@/lib/content";
 import about from "@/content/about.json";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { breadcrumbSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: about.meta.title,
+  title: { absolute: about.meta.title },
   description: about.meta.description,
   alternates: { canonical: "/about" },
   openGraph: { title: about.meta.title, description: about.meta.description, url: "/about" },
@@ -18,6 +20,7 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <>
+      <JsonLd data={breadcrumbSchema([{ name: "About", path: "/about" }])} />
       <Section tone="alt" labelledBy="about-title">
         <div className="grid items-center gap-12 lg:grid-cols-12">
           <div className="lg:col-span-7">
@@ -41,6 +44,17 @@ export default function AboutPage() {
           <SectionHeading id="principles-title" title={about.principlesHeading} className="lg:col-span-5" />
           <ChecklistCard items={about.principles} className="lg:col-span-7" />
         </div>
+      </Section>
+
+      <Section tone="alt" labelledBy="audience-title">
+        <SectionHeading id="audience-title" title={about.audienceHeading} />
+        <ul className="mt-8 grid gap-6 md:grid-cols-3">
+          {about.audience.map((line) => (
+            <li key={line} className="rounded-lg border-2 border-ink bg-surface p-6 text-lead shadow-sticker-sm">
+              {line}
+            </li>
+          ))}
+        </ul>
       </Section>
 
       <Section tone="deep" labelledBy="contact-title">

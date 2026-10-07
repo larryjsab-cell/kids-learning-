@@ -10,7 +10,7 @@ const fills: Record<BrandColor, string> = {
   primary: "bg-primary text-white",
 };
 
-export function AgeBands() {
+export function AgeBands({ showShopLink = true }: { showShopLink?: boolean } = {}) {
   const { ageBands } = homeContent;
   return (
     <Section labelledBy="ages-title">
@@ -38,9 +38,11 @@ export function AgeBands() {
         ))}
       </ul>
 
-      <p className="mt-14 text-lead">
-        <TextLink href="/shop">Browse every book in the shop</TextLink>
-      </p>
+      {showShopLink && (
+        <p className="mt-14 text-lead">
+          <TextLink href="/shop">Browse every book in the shop</TextLink>
+        </p>
+      )}
     </Section>
   );
 }

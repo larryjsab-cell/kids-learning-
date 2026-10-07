@@ -16,7 +16,7 @@ export function CompareTable({
   return (
     <Section labelledBy="compare-title">
       <SectionHeading id="compare-title" title={heading} />
-      <div className="relative mt-10 overflow-x-auto rounded-xl border-2 border-ink shadow-sticker" tabIndex={0} role="region" aria-labelledby="compare-title">
+      <div className="relative mt-10 overflow-x-auto rounded-xl border-2 border-ink shadow-sticker" tabIndex={0} role="region" aria-label="Comparison table of buying options, scrolls sideways on small screens">
         <table className="w-full min-w-xl border-collapse text-left">
           <thead className="bg-primary-deep text-white">
             <tr>

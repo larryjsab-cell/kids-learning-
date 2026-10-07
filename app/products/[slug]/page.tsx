@@ -13,6 +13,8 @@ import { RelatedPages } from "@/components/ui/RelatedPages";
 import { Photo } from "@/components/ui/Photo";
 import { getProduct, products } from "@/lib/content";
 import { optionsFor } from "@/lib/checkout";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { breadcrumbSchema, faqSchema, productSchema } from "@/lib/schema";
 
 export function generateStaticParams() {
   return products.map((p) => ({ slug: p.slug }));
@@ -22,9 +24,9 @@ export async function generateMetadata({ params }: PageProps<"/products/[slug]">
   const { slug } = await params;
   const product = getProduct(slug);
   if (!product) return {};
-  const title = `${product.title}: A-to-Z letter tracing book, ${product.ages.toLowerCase()}`;
+  const title = `${product.title} | Letter tracing book for ${product.ages.toLowerCase()}`;
   return {
-    title,
+    title: { absolute: title },
     description: product.summary,
     alternates: { canonical: `/products/${product.slug}` },
     openGraph: { title, description: product.summary, url: `/products/${product.slug}`, type: "website" },
@@ -39,6 +41,16 @@ export default async function ProductPage({ params }: PageProps<"/products/[slug
 
   return (
     <div className="pb-24 md:pb-0">
+      <JsonLd
+        data={[
+          productSchema(product),
+          breadcrumbSchema([
+            { name: "Shop", path: "/shop" },
+            { name: product.title, path: `/products/${product.slug}` },
+          ]),
+          faqSchema(product.faq),
+        ]}
+      />
       <ProductHero product={product} />
 
       <Section tone="deep" labelledBy="routine-title">

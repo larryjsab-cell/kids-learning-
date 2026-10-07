@@ -4,9 +4,12 @@ import { Section } from "@/components/ui/Section";
 import { Photo, type PhotoId } from "@/components/ui/Photo";
 import { ButtonLink } from "@/components/ui/Button";
 import { MembershipBand } from "@/components/ui/MembershipBand";
+import { AgeBands } from "@/components/home/AgeBands";
 import { RelatedPages } from "@/components/ui/RelatedPages";
 import { formatPrice, products } from "@/lib/content";
 import shop from "@/content/shop.json";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { breadcrumbSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: shop.meta.title,
@@ -18,6 +21,7 @@ export const metadata: Metadata = {
 export default function ShopPage() {
   return (
     <>
+      <JsonLd data={breadcrumbSchema([{ name: "Shop", path: "/shop" }])} />
       <Section tone="alt" labelledBy="shop-title">
         <h1 id="shop-title" className="ruled max-w-prose text-display font-extrabold text-primary sm:text-display-lg">
           {shop.heading}
@@ -64,6 +68,8 @@ export default function ShopPage() {
           </li>
         </ul>
       </Section>
+
+      <AgeBands showShopLink={false} />
 
       <MembershipBand />
 

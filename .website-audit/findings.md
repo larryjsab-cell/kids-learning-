@@ -38,3 +38,23 @@
 - [fixed] Live production execution 3505 succeeded; Gmail message 1a117aafabe3cc82 SENT
 - [fixed] /api/lead: validation 422, honeypot silent 200, upstream failure 502 with email fallback; token kept server-side
 - [not-verified] Browser → /api/lead → n8n hop end-to-end: n8n host blocked by sandbox egress; inbox arrival not visible to me
+## Phase 8 — SEO
+- [fixed] Unique titles ≤60 and descriptions ≤155 on all pages; canonicals; one H1 per page
+- [fixed] JSON-LD: OnlineStore + WebSite + FAQPage (home), Product w/ 3 offers + BreadcrumbList + FAQPage (product), BreadcrumbList (shop, about)
+- [fixed] Per-page 1200×630 OG images (opengraph-image.tsx for home, shop, about, product), twitter summary_large_image, icon.svg + apple-icon
+- [deferred] /shop flagged "thin content" (290 words) — only one product exists; added age bands section
+## Phase 9 — Performance
+- [fixed] Server Components by default; client leaves only: header drawer, free-sample form, buy box, gallery, checkout drawer (lazy)
+- [fixed] next/font self-hosted, display swap; Stripe.js + react-stripe split into lazy chunks
+- [fixed] 4× CPU + slow network, 390px: LCP 420–524ms, CLS 0.000 on all pages
+- [not-verified] LCP with real photos (image CDN blocked in sandbox); INP not measured
+## Phase 10 — Accessibility
+- [fixed] axe-core (wcag2a/aa/21aa/best-practice) 5 routes × 2 widths: 2 issues found and fixed (duplicate landmark label on comparison table, 404 numeral contrast) → 0
+- [fixed] Keyboard traversal of product page: logical order, visible focus everywhere, checkout dialog traps focus, Esc closes, focus returns to Buy button
+- [not-verified] Screen reader pass with a real AT (no NVDA/VoiceOver available)
+## Phase 11 — AI / agentic
+- [fixed] /llms.txt from content; robots allows major AI crawlers, disallows /api/ and /checkout/; form fields have name/id/autocomplete; key facts as plain text
+## Phase 12 — Final
+- [fixed] Security headers: CSP (Stripe-allowlisted), HSTS, nosniff, X-Frame-Options DENY, Referrer-Policy, Permissions-Policy; x-powered-by off
+- [fixed] Styled 404 with recovery links
+- [fixed] lint, typecheck, production build clean
