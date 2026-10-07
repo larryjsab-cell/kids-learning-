@@ -7,11 +7,14 @@ export function Placeholder({
   alt,
   ratio = "4/3",
   className = "",
+  thumb = false,
 }: {
   prompt: string;
   alt: string;
   ratio?: "1/1" | "4/3" | "3/4" | "4/5" | "16/9" | "3/2";
   className?: string;
+  /** Small preview: no caption, decorative. */
+  thumb?: boolean;
 }) {
   const aspect = {
     "1/1": "aspect-square",
@@ -24,8 +27,9 @@ export function Placeholder({
 
   return (
     <div
-      role="img"
-      aria-label={alt}
+      role={thumb ? undefined : "img"}
+      aria-label={thumb ? undefined : alt}
+      aria-hidden={thumb || undefined}
       data-placeholder
       data-prompt={prompt}
       className={`relative overflow-hidden bg-primary-soft ${aspect} ${className}`}
@@ -38,9 +42,9 @@ export function Placeholder({
         </defs>
         <rect width="100%" height="100%" fill="url(#ph-dots)" />
       </svg>
-      <p className="absolute inset-x-4 top-4 rounded-sm bg-surface/90 px-3 py-2 text-small text-muted">
+      {!thumb && <p className="absolute inset-x-4 top-4 rounded-sm bg-surface/90 px-3 py-2 text-small text-muted">
         Image: {alt}
-      </p>
+      </p>}
     </div>
   );
 }

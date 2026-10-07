@@ -15,7 +15,7 @@
       "Made for ages 3 to 7"
     ],
     "image": {
-      "prompt": "Overhead photo of a child's small hands tracing a large letter 'a' with a chunky purple crayon on a colorful printed workbook page, sunny kitchen table, soft natural light, playful grape purple, sunshine yellow, mint and coral accents, joyful and warm",
+      "prompt": "Overhead photo of a child’s small hands tracing a large letter 'a' with a chunky purple crayon on a colorful printed workbook page, sunny kitchen table, soft natural light, playful grape purple, sunshine yellow, mint and coral accents, joyful and warm",
       "alt": "A child tracing the letter a in a TiniLearners workbook"
     }
   },
@@ -57,7 +57,7 @@
   "membership": {
     "heading": "One membership, every new book free",
     "body": "Join the TiniLearners Club and every PDF in the library is yours, including each new release on the day it comes out.",
-    "cta": { "label": "Join the Club", "href": "/products/alphabet-adventures#buy" }
+    "cta": { "label": "Join the Club", "href": "/products/alphabet-adventures?plan=club#buy" }
   },
   "freeSample": {
     "heading": "Try a free sample pack",
@@ -66,7 +66,7 @@
     "submit": "Send my free pages",
     "submitting": "Sending…",
     "success": "Check your inbox. Your free pages are on their way.",
-    "privacy": "We'll email you the pack and the occasional new release. Unsubscribe any time."
+    "privacy": "We’ll email you the pack and the occasional new release. Unsubscribe any time."
   },
   "faq": {
     "heading": "Questions parents ask",

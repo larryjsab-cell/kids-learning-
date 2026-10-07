@@ -1,4 +1,6 @@
 import { Section } from "@/components/ui/Section";
+import { FaqList } from "@/components/ui/FaqList";
+import { TextLink } from "@/components/ui/TextLink";
 import { homeContent } from "@/lib/content";
 
 export function Faq() {
@@ -6,25 +8,14 @@ export function Faq() {
   return (
     <Section labelledBy="faq-title">
       <div className="grid gap-10 lg:grid-cols-12">
-        <h2 id="faq-title" className="text-h2 sm:text-display lg:col-span-4">{faq.heading}</h2>
-        <div className="space-y-4 lg:col-span-8">
-          {faq.items.map((item) => (
-            <details
-              key={item.q}
-              className="group rounded-lg border-2 border-ink bg-surface open:bg-surface-alt"
-            >
-              <summary className="flex min-h-14 cursor-pointer list-none items-center justify-between gap-4 px-5 py-4 font-display text-lead font-bold [&::-webkit-details-marker]:hidden">
-                {item.q}
-                <span
-                  aria-hidden="true"
-                  className="flex size-9 shrink-0 items-center justify-center rounded-full border-2 border-ink bg-accent text-h3 leading-none transition-transform duration-200 group-open:rotate-45"
-                >
-                  +
-                </span>
-              </summary>
-              <p className="max-w-prose px-5 pb-5 text-ink">{item.a}</p>
-            </details>
-          ))}
+        <div className="lg:col-span-4">
+          <h2 id="faq-title" className="text-h2 sm:text-display">{faq.heading}</h2>
+          <p className="mt-5">
+            <TextLink href="/about">Read how we design every page</TextLink>
+          </p>
+        </div>
+        <div className="lg:col-span-8">
+          <FaqList items={faq.items} />
         </div>
       </div>
     </Section>

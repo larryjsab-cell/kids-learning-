@@ -47,7 +47,7 @@ export function FreeSampleForm({ copy, fallbackEmail }: { copy: Copy; fallbackEm
     const endpoint = process.env.NEXT_PUBLIC_LEAD_WEBHOOK_URL;
     if (!endpoint) {
       setStatus("error");
-      setFormError(`Sign-ups aren't switched on yet. Email ${fallbackEmail} and we'll send the pages by hand.`);
+      setFormError(`Sign-ups aren’t switched on yet. Email ${fallbackEmail} and we’ll send the pages by hand.`);
       return;
     }
 
@@ -63,7 +63,7 @@ export function FreeSampleForm({ copy, fallbackEmail }: { copy: Copy; fallbackEm
       form.reset();
     } catch {
       setStatus("error");
-      setFormError(`We couldn't send that just now. Try again in a minute, or email ${fallbackEmail}.`);
+      setFormError(`We couldn’t send that just now. Try again in a minute, or email ${fallbackEmail}.`);
     }
   }
 

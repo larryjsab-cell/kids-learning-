@@ -11,3 +11,14 @@
 - [fixed] Web Interface Guidelines pass: scroll-padding for sticky header, touch-action, overscroll-contain drawer, tabular-nums prices, translate="no" wordmark, numerals in copy, theme-color = header bg
 - [deferred] Guidelines ask Title Case headings/buttons — kept sentence case deliberately (brand voice)
 - [not-verified] /impeccable critique, /ui-ux-pro-max — skills not installed in session
+## Phase 3 — Remaining pages
+- [fixed] Extracted shared UI: TextLink, SectionHeading, StepList, FaqList, ChecklistCard, MembershipBand (props), RelatedPages
+- [fixed] /products/[slug] IM8-style landing: gallery + sticky buy box (PDF / Print+PDF / Club radio cards), 4-step routine, outcomes, comparison table, Club band, product FAQ, related links, mobile sticky buy bar
+- [fixed] Stripe embedded checkout (ui_mode embedded_page) in <dialog> drawer; /api/checkout validates slug/option; payment, shipping (print), subscription (club); /checkout/complete status page (noindex)
+- [fixed] Stripe.js lazy-loaded (pure import + dynamic drawer) — was loading on every product page view
+- [fixed] 148px mobile overflow on product page: sr-only spans in table escaped overflow-x-auto scroller → wrapper made relative
+- [fixed] ?plan=club#buy deep link preselects Club (useSearchParams in Suspense)
+- [fixed] Shop with empty-state "more books on the way" → free sample; About principles + contact; styled 404
+- [not-verified] Live Stripe payment — no keys in environment
+## Phase 4 — Internal links
+- [fixed] Every page has RelatedPages or contextual links (home FAQ → About added); all pages ≤1 click from home via nav

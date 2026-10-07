@@ -12,7 +12,7 @@ export type ButtonVariant = keyof typeof variants;
 
 export const buttonClasses = (variant: ButtonVariant = "primary", extra = "") =>
   [
-    "inline-flex min-h-12 items-center justify-center gap-2 rounded-full px-6 py-3",
+    "inline-flex min-h-12 items-center justify-center gap-2 rounded-full px-6 py-3 text-center",
     "font-display text-lead font-bold leading-none",
     "border-2 border-ink shadow-sticker",
     "transition-[transform,box-shadow] duration-150 ease-out",

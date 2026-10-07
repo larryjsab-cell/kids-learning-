@@ -1,0 +1,13 @@
+{
+  "meta": {
+    "title": "Shop learning books and printable PDFs",
+    "description": "Browse TiniLearners learning books and printable PDFs for preschool, pre-K, kindergarten and 1st grade. Instant PDF downloads or printed books shipped."
+  },
+  "heading": "Books and printables",
+  "intro": "Every book comes as an instant PDF or a printed copy with the PDF included. Club members get every PDF, including new releases.",
+  "comingSoon": {
+    "heading": "More books are on the way",
+    "body": "We’re working on new titles for counting, shapes and first words. Get the free sample pack and we’ll email you when each one lands.",
+    "cta": { "label": "Get free samples", "href": "/#free-sample" }
+  }
+}

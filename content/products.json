@@ -7,9 +7,18 @@
       "subtitle": "Trace, say and find every letter from A to Z",
       "summary": "A playful A-to-Z book where every letter gets its own adventure: trace it, hear its sound, find it in a picture and color it in.",
       "ages": "Ages 3–6",
-      "grades": ["Preschool", "Pre-K", "Kindergarten"],
+      "grades": [
+        "Preschool",
+        "Pre-K",
+        "Kindergarten"
+      ],
       "pages": 56,
-      "skills": ["Letter recognition", "Letter sounds", "Pencil control", "Uppercase and lowercase"],
+      "skills": [
+        "Letter recognition",
+        "Letter sounds",
+        "Pencil control",
+        "Uppercase and lowercase"
+      ],
       "color": "coral",
       "formats": [
         {
@@ -26,7 +35,157 @@
           "priceNote": "One-time, plus shipping",
           "detail": "A printed copy shipped to your door, and the PDF in your inbox today."
         }
-      ]
+      ],
+      "tagline": "26 letters. 26 little adventures.",
+      "highlights": [
+        "Every letter gets its own two-page adventure",
+        "Uppercase and lowercase tracing with arrows that show where to start",
+        "A busy picture to hunt for the letter, then color in",
+        "About 15 minutes a day, one letter at a time"
+      ],
+      "gallery": [
+        {
+          "alt": "Alphabet Adventures cover with a smiling letter A",
+          "prompt": "Front cover of a children’s alphabet workbook titled 'Alphabet Adventures', a cheerful chunky letter A character with a backpack, grape purple and sunshine yellow, coral accents, clean flat illustration, book standing on a light sky-blue surface, soft studio light"
+        },
+        {
+          "alt": "Letter B tracing page with start arrows",
+          "prompt": "Close-up of a children’s worksheet page: big uppercase B and lowercase b on handwriting lines with dotted tracing guides and small numbered start arrows, crayon marks, playful bee illustration, grape and coral palette, top-down"
+        },
+        {
+          "alt": "Find-the-letter picture page full of balloons and bears",
+          "prompt": "Busy, friendly seek-and-find illustration page for preschoolers with bears, balloons, boats and bananas hiding letter b shapes, flat bright illustration, sunshine yellow, mint, coral and grape palette"
+        },
+        {
+          "alt": "Printed Alphabet Adventures book next to a tablet showing the PDF",
+          "prompt": "Printed spiral-bound alphabet workbook next to a tablet showing the same page as a PDF, crayons and a pencil, bright tidy kids' table, soft natural light, grape purple and sunshine yellow accents"
+        }
+      ],
+      "routine": {
+        "heading": "One letter, four little steps",
+        "intro": "Every letter follows the same routine, so your child always knows what comes next.",
+        "steps": [
+          {
+            "title": "Trace it",
+            "body": "Follow the arrows to trace the uppercase and lowercase letter, then try it on your own."
+          },
+          {
+            "title": "Say it",
+            "body": "Look at the picture word and say the letter’s sound out loud together."
+          },
+          {
+            "title": "Find it",
+            "body": "Hunt for the letter hiding in a busy picture and circle every one."
+          },
+          {
+            "title": "Color it",
+            "body": "Finish the page by coloring the picture. A small win to end on."
+          }
+        ]
+      },
+      "outcomes": {
+        "heading": "What your learner practices",
+        "items": [
+          {
+            "name": "Letter recognition",
+            "body": "Spotting each letter in uppercase and lowercase, even inside a busy picture."
+          },
+          {
+            "name": "Letter sounds",
+            "body": "Linking every letter to a familiar picture word and its first sound."
+          },
+          {
+            "name": "Pencil control",
+            "body": "Tracing straight lines, curves and loops with the correct starting point."
+          },
+          {
+            "name": "Focus and finishing",
+            "body": "Short, complete pages that build the habit of finishing a task."
+          }
+        ]
+      },
+      "compare": {
+        "heading": "Pick the way that suits your family",
+        "rows": [
+          {
+            "label": "Alphabet Adventures PDF",
+            "values": [
+              true,
+              true,
+              true
+            ]
+          },
+          {
+            "label": "PDF arrives by email right away",
+            "values": [
+              true,
+              true,
+              true
+            ]
+          },
+          {
+            "label": "Printed book shipped to you",
+            "values": [
+              false,
+              true,
+              false
+            ]
+          },
+          {
+            "label": "Print extra pages at home",
+            "values": [
+              true,
+              true,
+              true
+            ]
+          },
+          {
+            "label": "Every other PDF in the library",
+            "values": [
+              false,
+              false,
+              true
+            ]
+          },
+          {
+            "label": "New PDF releases free",
+            "values": [
+              false,
+              false,
+              true
+            ]
+          }
+        ]
+      },
+      "faq": [
+        {
+          "q": "How soon can we start?",
+          "a": "Straight away. The PDF is emailed to you right after checkout, including when you order the printed book."
+        },
+        {
+          "q": "What paper and printer do I need?",
+          "a": "Any home printer and regular letter or A4 paper. Thicker paper holds up better to crayons and markers."
+        },
+        {
+          "q": "Is it right for my child?",
+          "a": "Alphabet Adventures is made for ages 3 to 6. Younger learners can focus on tracing and coloring; older ones can say each sound and find every letter."
+        },
+        {
+          "q": "How does shipping work for the printed book?",
+          "a": "Enter your address at checkout. You’ll get the PDF by email while the book is on its way."
+        },
+        {
+          "q": "Can I cancel the Club?",
+          "a": "Yes. Cancel any time and you won’t be charged again."
+        }
+      ],
+      "shipping": {
+        "amount": 5,
+        "label": "Standard shipping",
+        "countries": [
+          "US"
+        ]
+      }
     }
   ],
   "membership": {
@@ -38,6 +197,9 @@
       "Every current PDF in the library",
       "New PDF releases free on launch day",
       "Cancel any time from your account"
-    ]
+    ],
+    "id": "club",
+    "label": "TiniLearners Club",
+    "detail": "This book and every PDF in the library, plus each new release free."
   }
 }

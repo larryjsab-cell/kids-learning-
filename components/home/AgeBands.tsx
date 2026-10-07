@@ -1,5 +1,6 @@
-import Link from "next/link";
 import { Section } from "@/components/ui/Section";
+import { SectionHeading } from "@/components/ui/SectionHeading";
+import { TextLink } from "@/components/ui/TextLink";
 import { homeContent, type BrandColor } from "@/lib/content";
 
 const fills: Record<BrandColor, string> = {
@@ -13,10 +14,7 @@ export function AgeBands() {
   const { ageBands } = homeContent;
   return (
     <Section labelledBy="ages-title">
-      <div className="max-w-prose">
-        <h2 id="ages-title" className="text-h2 sm:text-display">{ageBands.heading}</h2>
-        <p className="mt-4 text-lead text-muted">{ageBands.intro}</p>
-      </div>
+      <SectionHeading id="ages-title" title={ageBands.heading} intro={ageBands.intro} />
 
       <ul className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
         {ageBands.bands.map((band, i) => (
@@ -41,9 +39,7 @@ export function AgeBands() {
       </ul>
 
       <p className="mt-14 text-lead">
-        <Link href="/shop" className="font-semibold text-primary underline decoration-2 underline-offset-4 hover:decoration-coral">
-          Browse every book in the shop
-        </Link>
+        <TextLink href="/shop">Browse every book in the shop</TextLink>
       </p>
     </Section>
   );

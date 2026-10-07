@@ -3,8 +3,16 @@ import { ButtonLink } from "@/components/ui/Button";
 import { Star } from "@/components/ui/Star";
 import { formatPrice, homeContent, membership } from "@/lib/content";
 
-export function MembershipBand() {
-  const content = homeContent.membership;
+export function MembershipBand({
+  heading = homeContent.membership.heading,
+  body = homeContent.membership.body,
+  cta = homeContent.membership.cta,
+}: {
+  heading?: string;
+  body?: string;
+  cta?: { label: string; href: string };
+} = {}) {
+  const content = { heading, body, cta };
   return (
     <Section tone="accent" labelledBy="club-title">
       <div className="grid items-center gap-10 lg:grid-cols-12">

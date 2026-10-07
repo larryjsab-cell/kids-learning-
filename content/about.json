@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "title": "About TiniLearners",
+    "description": "Why TiniLearners makes short, playful learning books and printables for children from preschool to 1st grade, and how every page is designed."
+  },
+  "heading": "Learning that fits in 15 minutes",
+  "intro": "TiniLearners makes learning books and printable PDFs for children from preschool to 1st grade. Each page is a short, complete activity you can do together at the kitchen table, then put away on a win.",
+  "principlesHeading": "How we design every page",
+  "principles": [
+    { "name": "Short pages that end on a win", "body": "Each activity takes a few minutes and has a clear finish, so practice stops while it’s still fun." },
+    { "name": "A routine children can predict", "body": "Pages follow the same pattern, so little learners know what comes next and can do more on their own." },
+    { "name": "Paper first", "body": "Tracing, cutting and coloring with real crayons builds the hand strength and control children need for writing." },
+    { "name": "Skills teachers look for", "body": "Letters, sounds, counting and pencil control: the building blocks children use when they start school." }
+  ],
+  "contactHeading": "Get in touch",
+  "contactBody": "Questions about a book, an order or the Club? Email us and a real person will reply."
+}
