@@ -8,8 +8,8 @@
     "traceLetter": "a",
     "body": "Learning books and printable PDFs that turn letters, sounds and numbers into 15-minute adventures for preschool to 1st grade.",
     "primaryCta": {
-      "label": "See the ABC, 123 & Shapes book",
-      "href": "/products/abc-123-shapes-fun-book"
+      "label": "Shop the books",
+      "href": "/shop"
     },
     "secondaryCta": {
       "label": "Get a free sample pack",
@@ -68,12 +68,9 @@
     ]
   },
   "spotlight": {
-    "heading": "Our first book: ABC, 123 & Shapes",
-    "body": "90 pages for preschool and kindergarten. Your child traces every letter from A to Z and numbers 1 to 9, learns 8 shapes, draws 5 pictures step by step, then plays mazes and matching games. 1 or 2 pages a day is plenty.",
-    "cta": {
-      "label": "See inside the book",
-      "href": "/products/abc-123-shapes-fun-book"
-    }
+    "heading": "Our books",
+    "intro": "Two printable workbooks for preschool and kindergarten. Get the PDF, a printed copy, or both with the Club.",
+    "cta": "See inside"
   },
   "howItWorks": {
     "heading": "From checkout to the kitchen table",

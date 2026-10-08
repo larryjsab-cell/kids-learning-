@@ -12,7 +12,7 @@ import { FaqList } from "@/components/ui/FaqList";
 import { MembershipBand } from "@/components/ui/MembershipBand";
 import { RelatedPages } from "@/components/ui/RelatedPages";
 import { Photo } from "@/components/ui/Photo";
-import { getProduct, products } from "@/lib/content";
+import { getProduct, productPath, products } from "@/lib/content";
 import { optionsFor } from "@/lib/checkout";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { breadcrumbSchema, faqSchema, productSchema } from "@/lib/schema";
@@ -97,10 +97,13 @@ export default async function ProductPage({ params }: PageProps<"/products/[slug
 
       <RelatedPages
         links={[
+          ...products
+            .filter((p) => p.slug !== product.slug)
+            .map((p) => ({ href: productPath(p.slug), title: `Also try ${p.shortTitle}`, body: p.subtitle })),
           { href: "/shop", title: "Browse all books", body: "See every TiniLearners title for preschool to 1st grade." },
-          { href: "/#free-sample", title: "Try free sample pages", body: "Print 5 pages from this book tonight before you buy." },
+          { href: "/#free-sample", title: "Try free sample pages", body: "Print 5 pages tonight before you buy." },
           { href: "/about", title: "How we design pages", body: "Why every activity is short and ends on a win." },
-        ]}
+        ].slice(0, 3)}
       />
 
       <MobileBuyBar title={product.title} fromPrice={Math.min(...options.map((o) => o.price))} />

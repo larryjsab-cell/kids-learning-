@@ -37,7 +37,7 @@ export function SiteHeader() {
       <div className="mx-auto flex h-18 w-full max-w-page items-center justify-between gap-4 px-5 sm:px-8 lg:px-12">
         <Wordmark />
 
-        <nav aria-label="Main" className="hidden md:block">
+        <nav aria-label="Main" className="hidden lg:block">
           <ul className="flex items-center gap-1 lg:gap-2">
             {siteConfig.nav.map((item) => (
               <li key={item.href}>
@@ -60,7 +60,7 @@ export function SiteHeader() {
 
         <button
           type="button"
-          className="inline-flex size-12 items-center justify-center rounded-full border-2 border-ink bg-accent shadow-sticker-sm md:hidden"
+          className="inline-flex size-12 items-center justify-center rounded-full border-2 border-ink bg-accent shadow-sticker-sm lg:hidden"
           aria-expanded={open}
           aria-controls={drawerId}
           onClick={() => setOpen((v) => !v)}
@@ -81,7 +81,7 @@ export function SiteHeader() {
       <div
         id={drawerId}
         hidden={!open}
-        className="max-h-dvh overflow-y-auto overscroll-contain border-t-2 border-ink/10 bg-surface md:hidden"
+        className="max-h-dvh overflow-y-auto overscroll-contain border-t-2 border-ink/10 bg-surface lg:hidden"
       >
         <nav aria-label="Mobile" className="px-5 pb-8 pt-4 sm:px-8">
           <ul className="flex flex-col gap-1">

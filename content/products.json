@@ -8,10 +8,20 @@
       "subtitle": "Trace, draw, color and play your way to letters, numbers and shapes",
       "summary": "A 90-page preschool and kindergarten workbook. Trace A to Z and 1 to 9, learn 8 shapes, draw 5 pictures step by step, then play mazes and matching games.",
       "ages": "Ages 3–6",
-      "grades": ["Preschool", "Kindergarten"],
+      "grades": [
+        "Preschool",
+        "Kindergarten"
+      ],
       "pages": 90,
       "paper": "US Letter (8.5 × 11 in)",
-      "skills": ["Uppercase and lowercase letters", "Letter sounds", "Numbers 1 to 9", "Shapes", "Pencil control", "Drawing"],
+      "skills": [
+        "Uppercase and lowercase letters",
+        "Letter sounds",
+        "Numbers 1 to 9",
+        "Shapes",
+        "Pencil control",
+        "Drawing"
+      ],
       "color": "coral",
       "cardImage": "bookSpread",
       "formats": [
@@ -40,12 +50,24 @@
         "Coloring pages and a Super Star certificate"
       ],
       "gallery": [
-        { "image": "bookCover" },
-        { "image": "bookLetterA" },
-        { "image": "bookNumber1" },
-        { "image": "bookCircle" },
-        { "image": "bookDrawCat" },
-        { "image": "bookBackCover" }
+        {
+          "image": "bookCover"
+        },
+        {
+          "image": "bookLetterA"
+        },
+        {
+          "image": "bookNumber1"
+        },
+        {
+          "image": "bookCircle"
+        },
+        {
+          "image": "bookDrawCat"
+        },
+        {
+          "image": "bookBackCover"
+        }
       ],
       "routine": {
         "heading": "How the book builds skills",
@@ -72,17 +94,50 @@
       "contents": {
         "heading": "What’s inside all 90 pages",
         "items": [
-          { "name": "Warm-up lines", "pages": 2 },
-          { "name": "Letters A to Z, uppercase and lowercase", "pages": 26 },
-          { "name": "Numbers 1 to 9 with counting", "pages": 9 },
-          { "name": "Shapes: circle, square, triangle, rectangle, oval, star, heart, diamond", "pages": 8 },
-          { "name": "Step-by-step drawing: cat, house, fish, flower, robot", "pages": 15 },
-          { "name": "Coloring pages", "pages": 2 },
-          { "name": "Letter games: match, find, missing letters, first sounds", "pages": 12 },
-          { "name": "Number games: count and circle, number match", "pages": 4 },
-          { "name": "Shape and logic puzzles: find the shape, odd one out, what’s next", "pages": 4 },
-          { "name": "Mazes", "pages": 3 },
-          { "name": "Super Star certificate", "pages": 1 }
+          {
+            "name": "Warm-up lines",
+            "pages": 2
+          },
+          {
+            "name": "Letters A to Z, uppercase and lowercase",
+            "pages": 26
+          },
+          {
+            "name": "Numbers 1 to 9 with counting",
+            "pages": 9
+          },
+          {
+            "name": "Shapes: circle, square, triangle, rectangle, oval, star, heart, diamond",
+            "pages": 8
+          },
+          {
+            "name": "Step-by-step drawing: cat, house, fish, flower, robot",
+            "pages": 15
+          },
+          {
+            "name": "Coloring pages",
+            "pages": 2
+          },
+          {
+            "name": "Letter games: match, find, missing letters, first sounds",
+            "pages": 12
+          },
+          {
+            "name": "Number games: count and circle, number match",
+            "pages": 4
+          },
+          {
+            "name": "Shape and logic puzzles: find the shape, odd one out, what’s next",
+            "pages": 4
+          },
+          {
+            "name": "Mazes",
+            "pages": 3
+          },
+          {
+            "name": "Super Star certificate",
+            "pages": 1
+          }
         ]
       },
       "tips": {
@@ -125,12 +180,54 @@
       "compare": {
         "heading": "Pick the way that suits your family",
         "rows": [
-          { "label": "ABC, 123 & Shapes PDF (90 pages)", "values": [true, true, true] },
-          { "label": "PDF arrives by email right away", "values": [true, true, true] },
-          { "label": "Printed book shipped to you", "values": [false, true, false] },
-          { "label": "Print extra pages at home", "values": [true, true, true] },
-          { "label": "Every other PDF in the library", "values": [false, false, true] },
-          { "label": "New PDF releases free", "values": [false, false, true] }
+          {
+            "label": "ABC, 123 & Shapes PDF (90 pages)",
+            "values": [
+              true,
+              true,
+              true
+            ]
+          },
+          {
+            "label": "PDF arrives by email right away",
+            "values": [
+              true,
+              true,
+              true
+            ]
+          },
+          {
+            "label": "Printed book shipped to you",
+            "values": [
+              false,
+              true,
+              false
+            ]
+          },
+          {
+            "label": "Print extra pages at home",
+            "values": [
+              true,
+              true,
+              true
+            ]
+          },
+          {
+            "label": "Every other PDF in the library",
+            "values": [
+              false,
+              false,
+              true
+            ]
+          },
+          {
+            "label": "New PDF releases free",
+            "values": [
+              false,
+              false,
+              true
+            ]
+          }
         ]
       },
       "faq": [
@@ -162,7 +259,267 @@
       "shipping": {
         "amount": 5,
         "label": "Standard shipping",
-        "countries": ["US"]
+        "countries": [
+          "US"
+        ]
+      },
+      "homeBlurb": "90 pages for preschool and kindergarten. Your child traces every letter from A to Z and numbers 1 to 9, learns 8 shapes, draws 5 pictures step by step, then plays mazes and matching games."
+    },
+    {
+      "slug": "find-it-seek-and-find",
+      "pricesAreTest": true,
+      "title": "Find It! Seek & Find Fun Book",
+      "shortTitle": "Find It! Seek & Find",
+      "subtitle": "Picture hunts, letter and number hunts, and escape mazes",
+      "summary": "A 79-page seek-and-find book for preschool and kindergarten. Search 26 busy A to Z scenes, hunt letters, numbers and shapes, then escape the mazes.",
+      "homeBlurb": "Sharp eyes, busy minds! 79 pages where your child searches 26 busy picture scenes from A to Z, hunts for letters, numbers and shapes, finds animals by their first letter and escapes mazes that get trickier as they go.",
+      "ages": "Ages 3–6",
+      "grades": [
+        "Preschool",
+        "Kindergarten"
+      ],
+      "pages": 79,
+      "paper": "US Letter (8.5 × 11 in)",
+      "skills": [
+        "Letter recognition",
+        "First sounds",
+        "Numbers and counting",
+        "Shapes",
+        "Visual attention",
+        "Problem solving"
+      ],
+      "color": "mint",
+      "cardImage": "findSpread",
+      "formats": [
+        {
+          "id": "pdf",
+          "label": "PDF download",
+          "price": 12,
+          "priceNote": "One-time",
+          "detail": "Instant download. Print at home as many times as your family needs."
+        },
+        {
+          "id": "print",
+          "label": "Printed book + PDF",
+          "price": 24,
+          "priceNote": "One-time, plus shipping",
+          "detail": "A printed copy shipped to your door, and the PDF in your inbox today."
+        }
+      ],
+      "tagline": "Look, find and escape! Sharp eyes, busy minds.",
+      "highlights": [
+        "26 A to Z picture hunts",
+        "Letter and number hunts",
+        "Shape Spy: circle and count",
+        "Animal first-letter games",
+        "Escape mazes in 4 levels",
+        "ABC and 123 path mazes, plus a Super Finder certificate"
+      ],
+      "gallery": [
+        {
+          "image": "findCover"
+        },
+        {
+          "image": "findAThings"
+        },
+        {
+          "image": "findLetterHunt"
+        },
+        {
+          "image": "findShapeSpy"
+        },
+        {
+          "image": "findFirstLetter"
+        },
+        {
+          "image": "findBackCover"
+        }
+      ],
+      "routine": {
+        "heading": "How the book builds skills",
+        "intro": "Pages get harder as the book goes on, so there’s always a next challenge. Skip around and pick what your child enjoys.",
+        "steps": [
+          {
+            "title": "Hunt",
+            "body": "Say the target letter or number together, color every match, then count how many you found."
+          },
+          {
+            "title": "Find",
+            "body": "In 26 busy A to Z scenes, point to each little picture, say its first sound, then find it in the big scene."
+          },
+          {
+            "title": "Spot",
+            "body": "Circle every matching shape, then find the animals whose names start with the letter of the page."
+          },
+          {
+            "title": "Escape",
+            "body": "Solve mazes in 4 levels and follow ABC and 123 paths, then earn the Super Finder certificate."
+          }
+        ]
+      },
+      "contents": {
+        "heading": "What’s inside: 75 activity pages",
+        "items": [
+          {
+            "name": "Letter hunts: color every match, then count",
+            "pages": 10
+          },
+          {
+            "name": "A to Z picture hunts in busy scenes",
+            "pages": 26
+          },
+          {
+            "name": "Number hunts",
+            "pages": 6
+          },
+          {
+            "name": "Shape Spy: circles, squares, triangles, stars, hearts, ovals, rectangles, diamonds",
+            "pages": 8
+          },
+          {
+            "name": "First Letter Fun: animals by first letter",
+            "pages": 6
+          },
+          {
+            "name": "Letter Challenge: no names, just sounds",
+            "pages": 4
+          },
+          {
+            "name": "Maze Escape, levels 1 to 4",
+            "pages": 10
+          },
+          {
+            "name": "ABC and 123 escape paths",
+            "pages": 4
+          },
+          {
+            "name": "Super Finder certificate",
+            "pages": 1
+          }
+        ]
+      },
+      "tips": {
+        "heading": "Tips for grown-ups, straight from page 3",
+        "items": [
+          "Pages get harder as the book goes on. Skip around and pick what your child enjoys.",
+          "Letter and number hunts: say the target’s name together, color each match, then count.",
+          "A to Z picture hunts: point to each little picture, say the word and its first sound, then find it in the big scene.",
+          "Shape Spy: circle every matching shape, then count them out loud.",
+          "First letter pages: say each animal’s name slowly and listen for the first sound.",
+          "Mazes: trace with a finger first, then with a crayon.",
+          "Finish the book to earn the Super Finder certificate!"
+        ]
+      },
+      "outcomes": {
+        "heading": "What your learner practices",
+        "items": [
+          {
+            "name": "Letters and first sounds",
+            "body": "Spotting uppercase and lowercase letters, and hearing the first sound in words like apple, ant and anchor."
+          },
+          {
+            "name": "Numbers and counting",
+            "body": "Finding every matching number, counting how many, and following 1 to 20 in order."
+          },
+          {
+            "name": "Shapes",
+            "body": "Picking out 8 shapes among look-alikes and counting them out loud."
+          },
+          {
+            "name": "Visual attention",
+            "body": "Searching busy scenes for small details, a skill that supports early reading."
+          },
+          {
+            "name": "Problem solving",
+            "body": "Mazes in 4 levels plus ABC and 123 paths that build planning and patience."
+          }
+        ]
+      },
+      "compare": {
+        "heading": "Pick the way that suits your family",
+        "rows": [
+          {
+            "label": "Find It! Seek & Find PDF (79 pages)",
+            "values": [
+              true,
+              true,
+              true
+            ]
+          },
+          {
+            "label": "PDF arrives by email right away",
+            "values": [
+              true,
+              true,
+              true
+            ]
+          },
+          {
+            "label": "Printed book shipped to you",
+            "values": [
+              false,
+              true,
+              false
+            ]
+          },
+          {
+            "label": "Print extra pages at home",
+            "values": [
+              true,
+              true,
+              true
+            ]
+          },
+          {
+            "label": "Every other PDF in the library",
+            "values": [
+              false,
+              false,
+              true
+            ]
+          },
+          {
+            "label": "New PDF releases free",
+            "values": [
+              false,
+              false,
+              true
+            ]
+          }
+        ]
+      },
+      "faq": [
+        {
+          "q": "How soon can we start?",
+          "a": "Straight away. The PDF is emailed to you right after checkout, including when you order the printed book."
+        },
+        {
+          "q": "What paper and printer do I need?",
+          "a": "Any home printer. Pages are US Letter size (8.5 × 11 in) and also print on A4 with “fit to page”. The picture hunts are in full color, so a color printer shows them best."
+        },
+        {
+          "q": "Which book should we start with?",
+          "a": "Both are for ages 3 to 6. ABC, 123 & Shapes teaches letters, numbers and shapes through tracing and drawing. Find It! practices the same skills through searching, counting and mazes, so it works as a next step or alongside it."
+        },
+        {
+          "q": "Is it too hard for a 3-year-old?",
+          "a": "Pages get harder as the book goes on. Younger children can start with the letter hunts, Shape Spy and Level 1 mazes, and come back to the harder pages later."
+        },
+        {
+          "q": "How does shipping work for the printed book?",
+          "a": "Enter your address at checkout. You’ll get the PDF by email while the book is on its way."
+        },
+        {
+          "q": "Can I cancel the Club?",
+          "a": "Yes. Cancel any time and you won’t be charged again."
+        }
+      ],
+      "shipping": {
+        "amount": 5,
+        "label": "Standard shipping",
+        "countries": [
+          "US"
+        ]
       }
     }
   ],

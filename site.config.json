@@ -19,6 +19,10 @@
       "href": "/products/abc-123-shapes-fun-book"
     },
     {
+      "label": "Find It!",
+      "href": "/products/find-it-seek-and-find"
+    },
+    {
       "label": "About",
       "href": "/about"
     }

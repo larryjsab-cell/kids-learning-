@@ -1,14 +1,122 @@
 {
-  "hero": { "src": "https://woejhqidgykrcdyktuio.supabase.co/storage/v1/object/public/tl-site-images/hero.png", "width": 1792, "height": 2240, "alt": "A preschooler tracing a big letter a with a purple crayon on a workbook page" },
-  "freeSample": { "src": "https://woejhqidgykrcdyktuio.supabase.co/storage/v1/object/public/tl-site-images/free-sample.png", "width": 2336, "height": 1744, "alt": "Printed worksheet pages fanned out with child-safe scissors and crayons" },
-  "outcomes": { "src": "https://woejhqidgykrcdyktuio.supabase.co/storage/v1/object/public/tl-site-images/outcomes.png", "width": 2336, "height": 1744, "alt": "A child proudly holding up a finished letter page with a parent smiling beside them" },
-  "about": { "src": "https://woejhqidgykrcdyktuio.supabase.co/storage/v1/object/public/tl-site-images/about.png", "width": 1792, "height": 2240, "alt": "A parent and child working on a colorful activity page together at the kitchen table" },
-  "bookSpread": { "src": "/books/abc-123-shapes-fun-book/spread.webp", "width": 1600, "height": 1200, "alt": "The ABC, 123 & Shapes Fun Book cover between its letter A page and Draw a Cat page" },
-  "bookCover": { "src": "/books/abc-123-shapes-fun-book/cover.webp", "width": 1100, "height": 1424, "alt": "Front cover of the ABC, 123 & Shapes Fun Book, ages 3 to 6, with an owl and alphabet blocks" },
-  "bookLetterA": { "src": "/books/abc-123-shapes-fun-book/letter-a.webp", "width": 1100, "height": 1424, "alt": "Letter A page: color the big Aa, A is for apple, trace the big and small letter" },
-  "bookNumber1": { "src": "/books/abc-123-shapes-fun-book/number-1.webp", "width": 1100, "height": 1424, "alt": "Number 1 page: color the big 1, count and color 1 apple, trace the number and the word one" },
-  "bookCircle": { "src": "/books/abc-123-shapes-fun-book/shape-circle.webp", "width": 1100, "height": 1424, "alt": "Circle page: trace a big dotted circle from the start dot, three small circles and the word circle" },
-  "bookDrawCat": { "src": "/books/abc-123-shapes-fun-book/draw-a-cat.webp", "width": 1100, "height": 1424, "alt": "Draw a Cat page: four numbered steps of dotted lines that build a cat face" },
-  "bookMaze": { "src": "/books/abc-123-shapes-fun-book/maze.webp", "width": 1100, "height": 1424, "alt": "Maze page: help the cat find the fish" },
-  "bookBackCover": { "src": "/books/abc-123-shapes-fun-book/back-cover.webp", "width": 1100, "height": 1424, "alt": "Back cover listing what’s inside: letters A to Z, numbers 1 to 9, 8 shapes, 5 drawing lessons, mazes and a certificate" }
+  "hero": {
+    "src": "https://woejhqidgykrcdyktuio.supabase.co/storage/v1/object/public/tl-site-images/hero.png",
+    "width": 1792,
+    "height": 2240,
+    "alt": "A preschooler tracing a big letter a with a purple crayon on a workbook page"
+  },
+  "freeSample": {
+    "src": "https://woejhqidgykrcdyktuio.supabase.co/storage/v1/object/public/tl-site-images/free-sample.png",
+    "width": 2336,
+    "height": 1744,
+    "alt": "Printed worksheet pages fanned out with child-safe scissors and crayons"
+  },
+  "outcomes": {
+    "src": "https://woejhqidgykrcdyktuio.supabase.co/storage/v1/object/public/tl-site-images/outcomes.png",
+    "width": 2336,
+    "height": 1744,
+    "alt": "A child proudly holding up a finished letter page with a parent smiling beside them"
+  },
+  "about": {
+    "src": "https://woejhqidgykrcdyktuio.supabase.co/storage/v1/object/public/tl-site-images/about.png",
+    "width": 1792,
+    "height": 2240,
+    "alt": "A parent and child working on a colorful activity page together at the kitchen table"
+  },
+  "bookSpread": {
+    "src": "/books/abc-123-shapes-fun-book/spread.webp",
+    "width": 1600,
+    "height": 1200,
+    "alt": "The ABC, 123 & Shapes Fun Book cover between its letter A page and Draw a Cat page"
+  },
+  "bookCover": {
+    "src": "/books/abc-123-shapes-fun-book/cover.webp",
+    "width": 1100,
+    "height": 1424,
+    "alt": "Front cover of the ABC, 123 & Shapes Fun Book, ages 3 to 6, with an owl and alphabet blocks"
+  },
+  "bookLetterA": {
+    "src": "/books/abc-123-shapes-fun-book/letter-a.webp",
+    "width": 1100,
+    "height": 1424,
+    "alt": "Letter A page: color the big Aa, A is for apple, trace the big and small letter"
+  },
+  "bookNumber1": {
+    "src": "/books/abc-123-shapes-fun-book/number-1.webp",
+    "width": 1100,
+    "height": 1424,
+    "alt": "Number 1 page: color the big 1, count and color 1 apple, trace the number and the word one"
+  },
+  "bookCircle": {
+    "src": "/books/abc-123-shapes-fun-book/shape-circle.webp",
+    "width": 1100,
+    "height": 1424,
+    "alt": "Circle page: trace a big dotted circle from the start dot, three small circles and the word circle"
+  },
+  "bookDrawCat": {
+    "src": "/books/abc-123-shapes-fun-book/draw-a-cat.webp",
+    "width": 1100,
+    "height": 1424,
+    "alt": "Draw a Cat page: four numbered steps of dotted lines that build a cat face"
+  },
+  "bookMaze": {
+    "src": "/books/abc-123-shapes-fun-book/maze.webp",
+    "width": 1100,
+    "height": 1424,
+    "alt": "Maze page: help the cat find the fish"
+  },
+  "bookBackCover": {
+    "src": "/books/abc-123-shapes-fun-book/back-cover.webp",
+    "width": 1100,
+    "height": 1424,
+    "alt": "Back cover listing what’s inside: letters A to Z, numbers 1 to 9, 8 shapes, 5 drawing lessons, mazes and a certificate"
+  },
+  "findSpread": {
+    "src": "/books/find-it-seek-and-find/spread.webp",
+    "width": 1600,
+    "height": 1200,
+    "alt": "The Find It! Seek & Find Fun Book cover between its Find the A things page and First Letter Fun page"
+  },
+  "findCover": {
+    "src": "/books/find-it-seek-and-find/cover.webp",
+    "width": 1100,
+    "height": 1424,
+    "alt": "Front cover of Find It! Seek & Find, ages 3 to 6, with an owl holding a magnifying glass"
+  },
+  "findAThings": {
+    "src": "/books/find-it-seek-and-find/find-the-a-things.webp",
+    "width": 1100,
+    "height": 1424,
+    "alt": "Find the A things page: a busy park scene with an apple, airplane, anchor, ant, alligator and acorn to find"
+  },
+  "findLetterHunt": {
+    "src": "/books/find-it-seek-and-find/letter-hunt.webp",
+    "width": 1100,
+    "height": 1424,
+    "alt": "Letter Hunt page: color every letter A among scattered letters, then count them"
+  },
+  "findShapeSpy": {
+    "src": "/books/find-it-seek-and-find/shape-spy.webp",
+    "width": 1100,
+    "height": 1424,
+    "alt": "Shape Spy page: circle every circle among mixed shapes, then count them"
+  },
+  "findFirstLetter": {
+    "src": "/books/find-it-seek-and-find/first-letter-fun.webp",
+    "width": 1100,
+    "height": 1424,
+    "alt": "First Letter Fun page: circle the animals that start with B, like bat, bear, bee and bunny"
+  },
+  "findMaze": {
+    "src": "/books/find-it-seek-and-find/maze-escape.webp",
+    "width": 1100,
+    "height": 1424,
+    "alt": "Maze Escape level 1: help the bunny get the carrot"
+  },
+  "findBackCover": {
+    "src": "/books/find-it-seek-and-find/back-cover.webp",
+    "width": 1100,
+    "height": 1424,
+    "alt": "Back cover: Look, Find and Escape! Puzzle Fun! listing picture hunts, letter and number hunts, Shape Spy, first-letter games and mazes"
+  }
 }

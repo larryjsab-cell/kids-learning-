@@ -73,3 +73,7 @@ values
 -- 2026-10-07 (applied via SQL): first real book.
 -- insert into public.tl_products (slug, title, pdf_path)
 -- values ('abc-123-shapes-fun-book', 'ABC, 123 & Shapes Fun Book', 'abc-123-shapes-fun-book.pdf');
+
+-- 2026-10-08 (applied via SQL): second book.
+-- insert into public.tl_products (slug, title, pdf_path)
+-- values ('find-it-seek-and-find', 'Find It! Seek & Find Fun Book', 'find-it-seek-and-find.pdf');
